@@ -1,0 +1,52 @@
+\documentclass[12pt]{article}
+\usepackage{palatino}\usepackage{fullpage}
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{epic}
+\usepackage{ecltree}
+\renewcommand{\ttdefault}{cmtt}
+\begin{document}
+\noindent \url{test14}
+
+\noindent \url{[0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]}
+
+%% CONTAINMENT HIERARCHY %%
+\noindent\begin{tt}
+\begin{small}
+\begin{bundle}{}
+\chunk[0]{\begin{bundle}{EOSTIR$\sqcup$ANH}
+ \chunk[1]{\begin{bundle}{EOSTIR}
+ \chunk[2]{\begin{bundle}{EOS}
+ \chunk[3]{E}
+ \chunk[4]{O}
+ \chunk[5]{S}
+\end{bundle}}
+ \chunk[3]{T}
+ \chunk[4]{I}
+ \chunk[5]{R}
+\end{bundle}}
+ \chunk[2]{$\sqcup$}
+ \chunk[3]{A}
+ \chunk[4]{N}
+ \chunk[5]{H}
+\end{bundle}}
+\end{bundle}
+\end{small}
+\end{tt}
+\newpage%% PROB DIST %%
+\begin{tabular}{l l}0.1	&	0.1\\
+0.1	&	0.1\\
+0.1	&	0.1\\
+0.1	&	0.1\\
+0.1	&	0.1\\
+0.1	&	0.1\\
+0.1	&	0.1\\
+0.1	&	0.1\\
+0.1	&	0.1\\
+0.1	&	0.1\\
+\end{tabular}\newpage
+\noindent
+\noindent Mean Cost: 0.0\\
+\begin{tabular}{l l l l}
+Source Symbol	&	User Action Seq.	&	Encoding	&	Cost\\
+\end{tabular}\end{document}

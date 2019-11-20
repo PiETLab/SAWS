@@ -1,0 +1,147 @@
+\documentclass[12pt]{article}
+\usepackage{palatino}
+\usepackage{fullpage}
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{eepic}
+\usepackage{epic}
+\usepackage{ecltree}
+\renewcommand{\ttdefault}{cmtt}
+\begin{document}
+%\noindent \url{encodingTrees.TraversableEncodingTree}
+
+%\dashline[65]{3}(x1,y1)(x2,y2)
+\drawwith{\dashline[65]{3}}
+
+%% CONTAINMENT HIERARCHY %%
+\noindent\begin{tt}
+\begin{small}
+\begin{bundle}{}
+%% SUBTREE FOR node rooted at: but:[_,_]but:[A,A]but:[B,B]but:[C,C]but:[D,D]but:[E,E]but:[F,F]but:[G,G]but:[H,H]but:[I,I]but:[J,J]but:[K,K]but:[L,L]but:[M,M]but:[N,N]but:[O,O]but:[P,P]but:[Q,Q]but:[R,R]but:[S,S]but:[T,T]but:[U,U]but:[V,V]but:[W,W]but:[X,X]but:[Y,Y]but:[Z,Z]but:[.,.]but:[?,?]but:[?,?]
+\chunk[]
+{\begin{bundle}{$\sqcup$ABCDEFGHIJKLMNOPQRSTUVWXYZ.\#$\P$}
+ %% SUBTREE FOR node rooted at: but:[_,_]but:[A,A]but:[B,B]but:[C,C]but:[D,D]
+\chunk[]
+{\begin{bundle}{$\sqcup$ABCD}
+ %% SUBTREE FOR LEAF
+\chunk[]{\framebox{$\sqcup$}}
+ %% SUBTREE FOR LEAF
+\chunk[]{\framebox{A}}
+ %% SUBTREE FOR LEAF
+\chunk[]{\framebox{B}}
+ %% SUBTREE FOR LEAF
+\chunk[]{\framebox{C}}
+ %% SUBTREE FOR LEAF
+\chunk[]{\framebox{D}}
+\end{bundle}}
+ %% SUBTREE FOR node rooted at: but:[E,E]but:[F,F]but:[G,G]but:[H,H]but:[I,I]
+\chunk[]
+{\begin{bundle}{EFGHI}
+ %% SUBTREE FOR LEAF
+\chunk[]{\framebox{E}}
+ %% SUBTREE FOR LEAF
+\chunk[]{\framebox{F}}
+ %% SUBTREE FOR LEAF
+\chunk[]{\framebox{G}}
+ %% SUBTREE FOR LEAF
+\chunk[]{\framebox{H}}
+ %% SUBTREE FOR LEAF
+\chunk[]{\framebox{I}}
+\end{bundle}}
+ %% SUBTREE FOR node rooted at: but:[J,J]but:[K,K]but:[L,L]but:[M,M]but:[N,N]
+\chunk[]
+{\begin{bundle}{JKLMN}
+ %% SUBTREE FOR LEAF
+\chunk[]{\framebox{J}}
+ %% SUBTREE FOR LEAF
+\chunk[]{\framebox{K}}
+ %% SUBTREE FOR LEAF
+\chunk[]{\framebox{L}}
+ %% SUBTREE FOR LEAF
+\chunk[]{\framebox{M}}
+ %% SUBTREE FOR LEAF
+\chunk[]{\framebox{N}}
+\end{bundle}}
+ %% SUBTREE FOR node rooted at: but:[O,O]but:[P,P]but:[Q,Q]but:[R,R]but:[S,S]
+\chunk[]
+{\begin{bundle}{OPQRS}
+ %% SUBTREE FOR LEAF
+\chunk[]{\framebox{O}}
+ %% SUBTREE FOR LEAF
+\chunk[]{\framebox{P}}
+ %% SUBTREE FOR LEAF
+\chunk[]{\framebox{Q}}
+ %% SUBTREE FOR LEAF
+\chunk[]{\framebox{R}}
+ %% SUBTREE FOR LEAF
+\chunk[]{\framebox{S}}
+\end{bundle}}
+ %% SUBTREE FOR node rooted at: but:[T,T]but:[U,U]but:[V,V]but:[W,W]but:[X,X]
+\chunk[]
+{\begin{bundle}{TUVWX}
+ %% SUBTREE FOR LEAF
+\chunk[]{\framebox{T}}
+ %% SUBTREE FOR LEAF
+\chunk[]{\framebox{U}}
+ %% SUBTREE FOR LEAF
+\chunk[]{\framebox{V}}
+ %% SUBTREE FOR LEAF
+\chunk[]{\framebox{W}}
+ %% SUBTREE FOR LEAF
+\chunk[]{\framebox{X}}
+\end{bundle}}
+ %% SUBTREE FOR node rooted at: but:[Y,Y]but:[Z,Z]but:[.,.]but:[?,?]but:[?,?]
+\chunk[]
+{\begin{bundle}{YZ.\#$\P$}
+ %% SUBTREE FOR LEAF
+\chunk[]{\framebox{Y}}
+ %% SUBTREE FOR LEAF
+\chunk[]{\framebox{Z}}
+ %% SUBTREE FOR LEAF
+\chunk[]{\framebox{.}}
+ %% SUBTREE FOR LEAF
+\chunk[]{\framebox{\#}}
+ %% SUBTREE FOR LEAF
+\chunk[]{\framebox{$\P$}}
+\end{bundle}}
+\end{bundle}}
+
+\end{bundle}
+\end{small}
+\end{tt}
+\newpage\newpage
+\noindent
+\noindent Mean Cost: 2.0\\
+\begin{tabular}{l l l l l}
+Source Symbol	&	Cost\\
+$\sqcup$	&	(W{6})*S(W{5})*S	&	2.0	&	0.152520446128406\\
+A	&	(W{6})*S(W{5})*W{1}S	&	2.0	&	0.06527875094295767\\
+B	&	(W{6})*S(W{5})*W{2}S	&	2.0	&	0.010600171005924156\\
+C	&	(W{6})*S(W{5})*W{3}S	&	2.0	&	0.021276602234912623\\
+D	&	(W{6})*S(W{5})*W{4}S	&	2.0	&	0.025852215618764756\\
+E	&	(W{6})*W{1}S(W{5})*S	&	2.0	&	0.09944333087572037\\
+F	&	(W{6})*W{1}S(W{5})*W{1}S	&	2.0	&	0.018988795542986513\\
+G	&	(W{6})*W{1}S(W{5})*W{2}S	&	2.0	&	0.015175784389776382\\
+H	&	(W{6})*W{1}S(W{5})*W{3}S	&	2.0	&	0.040265397777899135\\
+I	&	(W{6})*W{1}S(W{5})*W{4}S	&	2.0	&	0.053915977706391414\\
+J	&	(W{6})*W{2}S(W{5})*S	&	2.0	&	9.91382899834637E-4\\
+K	&	(W{6})*W{2}S(W{5})*W{1}S	&	2.0	&	0.003202929368696522\\
+L	&	(W{6})*W{2}S(W{5})*W{2}S	&	2.0	&	0.02882636431826866\\
+M	&	(W{6})*W{2}S(W{5})*W{3}S	&	2.0	&	0.018988795542986513\\
+N	&	(W{6})*W{2}S(W{5})*W{4}S	&	2.0	&	0.0516281710144653\\
+O	&	(W{6})*W{3}S(W{5})*S	&	2.0	&	0.060779397782169654\\
+P	&	(W{6})*W{3}S(W{5})*W{1}S	&	2.0	&	0.011362773236566254\\
+Q	&	(W{6})*W{3}S(W{5})*W{2}S	&	2.0	&	9.151226767704342E-4\\
+R	&	(W{6})*W{3}S(W{5})*W{3}S	&	2.0	&	0.046289955399971154\\
+S	&	(W{6})*W{3}S(W{5})*W{4}S	&	2.0	&	0.04781515986125517\\
+T	&	(W{6})*W{4}S(W{5})*S	&	2.0	&	0.07969193310209197\\
+U	&	(W{6})*W{4}S(W{5})*W{1}S	&	2.0	&	0.022039204465554633\\
+V	&	(W{6})*W{4}S(W{5})*W{2}S	&	2.0	&	0.007015940521906668\\
+W	&	(W{6})*W{4}S(W{5})*W{3}S	&	2.0	&	0.015175784389776382\\
+X	&	(W{6})*W{4}S(W{5})*W{4}S	&	2.0	&	0.001296423792091449\\
+Y	&	(W{6})*W{5}S(W{5})*S	&	2.0	&	0.015175784389776382\\
+Z	&	(W{6})*W{5}S(W{5})*W{1}S	&	2.0	&	6.100817845136232E-4\\
+.	&	(W{6})*W{5}S(W{5})*W{2}S	&	2.0	&	5.948297399007821E-4\\
+\#	&	(W{6})*W{5}S(W{5})*W{3}S	&	2.0	&	5.643256506751009E-4\\
+$\P$	&	(W{6})*W{5}S(W{5})*W{4}S	&	2.0	&	0.08371816783898965\\
+\end{tabular}\end{document}

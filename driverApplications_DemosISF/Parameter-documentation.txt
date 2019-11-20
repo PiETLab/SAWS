@@ -1,0 +1,69 @@
+-eh { true | false } : experiment helper
+
+*** all ISF, need to specify ET, then specify KeyBoardView
+
+*** for ET,  
+*** can generate from a keyboard layout (a grid of rows and columns), 
+*** or can generate from a source symbol set and huffman (with choice of two different encoding alphabets, 
+*** equal and unequal cost)
+
+
+-te { manual | alg} 
+
+Alternative (1) 
+-ec {EncodingTreeFromManualSpecification}
+-mt {UnigramBasedET_2Level | UnigramBasedET_1Level | QWERTYBased_2Level | QWERTYBased_1Level | UnigramBased_3Level...}
+
+
+
+Alternative (2)
+-ec {HuffmanEqualCosts | HuffmanUnequalCosts}
+-ea k : encoding alphabet size of k
+-sl {<name of selectable set with init probs>, e.g., SourceSymbolSet_Venkatagiri99_Hypothesized}
+-cost {e | u}  : only makes sense with huffman, equal or unequal costs (if unequal, assumes ascending ints)
+
+
+Keyboard Views: for all, it is assumed that the encoding tree has been specified.
+
+-bd {true|false}  whether buttonDecorators have been removed
+
+-kb {RowColumnSizedForTwoLevelEncodingTree | ...
+
+-di { ShowKeyboardWithAsFewElementsAsPossible | ShowFullKeyboardAtAllTimes | ShowMaxKeyboardInAvailableRealEstate} 
+
+
+-kb {VA1 | VA2A5 | VA3A6 | VA4}
+
+
+*OBSOLETE -te {kb_et | et_kb}
+
+**** KBL-based EC's
+
+-mt {UnigramBasedET_2Level | ???}  // manual 
+
+*OBSOLETE -ec {RowColFromKB | LinearFromKB | ???BinaryFromKB}
+-ec {EncodingTreeFromManualSpecification}
+
+
+
+-kb {VA1 | VA2A5 | VA3A6 | VA4}
+
+
+**** EC-based KBL's:
+
+-ec {HuffmanEqualCosts | HuffmanUnequalCosts}
+
+-ea k : encoding alphabet size of k
+
+-sl {<name of selectable set with init probs>, e.g., SourceSymbolSet_Venkatagiri99_Hypothesized}
+
+-cost {e | u}  : only makes sense with huffman, equal or unequal costs (if unequal, assumes ascending ints)
+
+-kb { linear | optERE | optURE1 | optURE2 | VA1 | VA2A5 | VA3A6 | VA4 }
+
+
+***************
+
+-fa {passive | direct} with passive or active focus advancement
+
+with directed edge traversal of the tree without focus 

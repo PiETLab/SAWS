@@ -1,0 +1,49 @@
+\documentclass[12pt]{article}
+\usepackage{palatino}\usepackage{fullpage}
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{epic}
+\usepackage{ecltree}
+\renewcommand{\ttdefault}{cmtt}
+\begin{document}
+\noindent \url{HuffmanEqualCosts}
+
+\input{ecltree-HuffmanEqualCosts.LettersPeriodCommaSpace.tex}
+
+\newpage
+\noindent
+\noindent Mean Cost: 2.1547055957868215\\
+\begin{tabular}{l l l l}
+Source Symbol	&	Cost\\
+W $\rightarrow$ SSSS	&	4.0	&	0.011920540658866632\\
+B $\rightarrow$ SSSW{$^{1}$}S	&	4.0	&	0.011120504373036608\\
+V $\rightarrow$ SSSW{$^{2}$}S	&	4.0	&	0.007360333829635741\\
+K $\rightarrow$ SSSW{$^{3}$}SS	&	5.0	&	0.003360152400485886\\
+Q $\rightarrow$ SSSW{$^{3}$}SW{$^{1}$}SS	&	6.0	&	9.600435429959666E-4\\
+Z $\rightarrow$ SSSW{$^{3}$}SW{$^{1}$}SW{$^{1}$}S	&	6.0	&	5.946717411988582E-4\\
+$\emptyset$ $\rightarrow$ SSSW{$^{3}$}SW{$^{1}$}SW{$^{2}$}S	&	6.0	&	0.0\\
+$\emptyset$ $\rightarrow$ SSSW{$^{3}$}SW{$^{1}$}SW{$^{3}$}S	&	6.0	&	0.0\\
+X $\rightarrow$ SSSW{$^{3}$}SW{$^{2}$}S	&	5.0	&	0.001360061685910949\\
+J $\rightarrow$ SSSW{$^{3}$}SW{$^{3}$}S	&	5.0	&	0.00104004717157896\\
+D $\rightarrow$ SSW{$^{1}$}S	&	3.0	&	0.030241371604372947\\
+L $\rightarrow$ SSW{$^{2}$}S	&	3.0	&	0.02712123008963607\\
+F $\rightarrow$ SSW{$^{3}$}S	&	3.0	&	0.023121048660486154\\
+E $\rightarrow$ SW{$^{1}$}S	&	2.0	&	0.10432473167222804\\
+T $\rightarrow$ SW{$^{2}$}S	&	2.0	&	0.08360379186923216\\
+C $\rightarrow$ SW{$^{3}$}SS	&	3.0	&	0.02232101237465623\\
+, $\rightarrow$ SW{$^{3}$}SW{$^{1}$}S	&	3.0	&	0.020000907145749272\\
+. $\rightarrow$ SW{$^{3}$}SW{$^{2}$}S	&	3.0	&	0.020000907145749272\\
+M $\rightarrow$ SW{$^{3}$}SW{$^{3}$}S	&	3.0	&	0.01992090351716626\\
+A $\rightarrow$ W{$^{1}$}SS	&	2.0	&	0.06848310606704563\\
+U $\rightarrow$ W{$^{1}$}SW{$^{1}$}SS	&	3.0	&	0.01992090351716626\\
+G $\rightarrow$ W{$^{1}$}SW{$^{1}$}SW{$^{1}$}S	&	3.0	&	0.015920722088016447\\
+P $\rightarrow$ W{$^{1}$}SW{$^{1}$}SW{$^{2}$}S	&	3.0	&	0.015920722088016447\\
+Y $\rightarrow$ W{$^{1}$}SW{$^{1}$}SW{$^{3}$}S	&	3.0	&	0.015920722088016447\\
+O $\rightarrow$ W{$^{1}$}SW{$^{2}$}S	&	2.0	&	0.0637628919806488\\
+N $\rightarrow$ W{$^{1}$}SW{$^{3}$}S	&	2.0	&	0.05656256540817909\\
+R $\rightarrow$ W{$^{2}$}SS	&	2.0	&	0.054162456550689124\\
+I $\rightarrow$ W{$^{2}$}SW{$^{1}$}S	&	2.0	&	0.05016227512153931\\
+S $\rightarrow$ W{$^{2}$}SW{$^{2}$}S	&	2.0	&	0.04856220254987936\\
+H $\rightarrow$ W{$^{2}$}SW{$^{3}$}S	&	2.0	&	0.04224191589182259\\
+$\sqcup$ $\rightarrow$ W{$^{3}$}S	&	1.0	&	0.1600072571659946\\
+\end{tabular}\end{document}

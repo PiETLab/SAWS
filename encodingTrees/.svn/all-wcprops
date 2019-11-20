@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/encodingTrees
+END
+Code.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/encodingTrees/Code.java
+END
+ManualEncodingTreeSpecification.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/encodingTrees/ManualEncodingTreeSpecification.java
+END
+UserAtomicAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/encodingTrees/UserAtomicAction.java
+END
+RowColFromKB.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/encodingTrees/RowColFromKB.java
+END
+LinearFromKB.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/encodingTrees/LinearFromKB.java
+END
+MorseCodeLookupTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/encodingTrees/MorseCodeLookupTable.java
+END
+BinaryFromKB.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/encodingTrees/BinaryFromKB.java
+END
+EncodingTreeFromManualSpecification.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/encodingTrees/EncodingTreeFromManualSpecification.java
+END
+AlphabeticET_MeaganSubset_2Level.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/encodingTrees/AlphabeticET_MeaganSubset_2Level.java
+END
+AtomicAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/encodingTrees/AtomicAction.java
+END
+UnigramBasedET_MeaganSubset_2Level.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/encodingTrees/UnigramBasedET_MeaganSubset_2Level.java
+END
+HuffmanEqualCosts.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/encodingTrees/HuffmanEqualCosts.java
+END
+TraversableEncodingTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/encodingTrees/TraversableEncodingTree.java
+END
+Huffman_k2.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/encodingTrees/Huffman_k2.java
+END
+EncodingTreeFromFileObjectNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/encodingTrees/EncodingTreeFromFileObjectNode.java
+END
+EncodingTreeWithErrorModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/encodingTrees/EncodingTreeWithErrorModel.java
+END
+HuffmanUnequalCosts.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/encodingTrees/HuffmanUnequalCosts.java
+END
+CodeWord.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/encodingTrees/CodeWord.java
+END
+EncodingUtilities.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/encodingTrees/EncodingUtilities.java
+END
+UnigramBasedET_2Level.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/encodingTrees/UnigramBasedET_2Level.java
+END
+TraversableEncodingTreeGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/encodingTrees/TraversableEncodingTreeGenerator.java
+END
+EncodingTreeFromMorseCode.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/encodingTrees/EncodingTreeFromMorseCode.java
+END
+EncodingTreeFromSourceSymbolSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/encodingTrees/EncodingTreeFromSourceSymbolSet.java
+END
+AbstractEncodingTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/encodingTrees/AbstractEncodingTree.java
+END
+EncodingTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/encodingTrees/EncodingTree.java
+END

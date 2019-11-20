@@ -1,0 +1,47 @@
+\documentclass[12pt]{article}
+\usepackage{palatino}\usepackage{fullpage}
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{epic}
+\usepackage{ecltree}
+\renewcommand{\ttdefault}{cmtt}
+\begin{document}
+\noindent \url{HuffmanUnequalCosts}
+
+\input{ecltree-HuffmanUnequalCosts.LettersPeriodCommaSpace.tex}
+
+\newpage
+\noindent
+\noindent Mean Cost: 4.487349972488578\\
+\begin{tabular}{l l l l}
+Source Symbol	&	Cost\\
+L $\rightarrow$ SSSSSS	&	6.0	&	0.02712123008963607\\
+G $\rightarrow$ SSSSSW{$^{1}$}S	&	7.0	&	0.015920722088016447\\
+X $\rightarrow$ SSSSSW{$^{2}$}SS	&	9.0	&	0.001360061685910949\\
+Z $\rightarrow$ SSSSSW{$^{2}$}SW{$^{1}$}S	&	10.0	&	5.946717411988582E-4\\
+J $\rightarrow$ SSSSSW{$^{3}$}S	&	9.0	&	0.00104004717157896\\
+F $\rightarrow$ SSSSW{$^{1}$}S	&	6.0	&	0.023121048660486154\\
+P $\rightarrow$ SSSSW{$^{2}$}S	&	7.0	&	0.015920722088016447\\
+V $\rightarrow$ SSSSW{$^{3}$}S	&	8.0	&	0.007360333829635741\\
+C $\rightarrow$ SSSW{$^{1}$}SS	&	6.0	&	0.02232101237465623\\
+Y $\rightarrow$ SSSW{$^{1}$}SW{$^{1}$}S	&	7.0	&	0.015920722088016447\\
+K $\rightarrow$ SSSW{$^{1}$}SW{$^{2}$}S	&	8.0	&	0.003360152400485886\\
+Q $\rightarrow$ SSSW{$^{1}$}SW{$^{3}$}S	&	9.0	&	9.600435429959666E-4\\
+, $\rightarrow$ SSSW{$^{2}$}S	&	6.0	&	0.020000907145749272\\
+W $\rightarrow$ SSSW{$^{3}$}S	&	7.0	&	0.011920540658866632\\
+T $\rightarrow$ SSW{$^{1}$}S	&	4.0	&	0.08360379186923216\\
+I $\rightarrow$ SSW{$^{2}$}S	&	5.0	&	0.05016227512153931\\
+. $\rightarrow$ SSW{$^{3}$}S	&	6.0	&	0.020000907145749272\\
+A $\rightarrow$ SW{$^{1}$}SS	&	4.0	&	0.06848310606704563\\
+S $\rightarrow$ SW{$^{1}$}SW{$^{1}$}S	&	5.0	&	0.04856220254987936\\
+M $\rightarrow$ SW{$^{1}$}SW{$^{2}$}S	&	6.0	&	0.01992090351716626\\
+B $\rightarrow$ SW{$^{1}$}SW{$^{3}$}S	&	7.0	&	0.011120504373036608\\
+O $\rightarrow$ SW{$^{2}$}S	&	4.0	&	0.0637628919806488\\
+H $\rightarrow$ SW{$^{3}$}S	&	5.0	&	0.04224191589182259\\
+$\sqcup$ $\rightarrow$ W{$^{1}$}SS	&	3.0	&	0.1600072571659946\\
+N $\rightarrow$ W{$^{1}$}SW{$^{1}$}S	&	4.0	&	0.05656256540817909\\
+D $\rightarrow$ W{$^{1}$}SW{$^{2}$}S	&	5.0	&	0.030241371604372947\\
+U $\rightarrow$ W{$^{1}$}SW{$^{3}$}S	&	6.0	&	0.01992090351716626\\
+E $\rightarrow$ W{$^{2}$}S	&	3.0	&	0.10432473167222804\\
+R $\rightarrow$ W{$^{3}$}S	&	4.0	&	0.054162456550689124\\
+\end{tabular}\end{document}

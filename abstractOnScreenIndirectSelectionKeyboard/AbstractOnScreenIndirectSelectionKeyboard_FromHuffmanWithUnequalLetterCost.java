@@ -1,0 +1,261 @@
+package abstractOnScreenIndirectSelectionKeyboard;
+
+
+import java.util.List;
+import java.util.Vector;
+
+import buttonLayouts.ButtonLayoutSpecification;
+
+import customGUIComponentsISF.JIndirectSelectionButton;
+
+import encodingTrees.EncodingUtilities;
+import encodingTrees.obsolete.MyTraversableEncodingTree;
+import buttonLayouts.RamayKeyboardLayoutParam;
+import probabilityDistributionsVOCA.ProbDist_Venkatagiri99_Hypothesized;
+import sourceSymbolSet.SourceSymbol;
+import sourceSymbolSet.SourceSymbolSet;
+import unequalLetterCostCode.ConstructCodeTree;
+import unequalLetterCostCode.EncodingAlphabet;
+import treeDataStructure.InternalNode;
+import treeDataStructure.Node;
+import UtilityClassesISF.ProbabilityDistribution;
+
+/**
+ * This class implements a on-screen indirect selection keyboard in which:
+ * 
+ * (1) access to the 43-element selectable set with "VenkatagiriHypothesized"
+ * probability distribution is afforded;
+ * 
+ * (2) the encoding tree is derived using Huffman with unequal letter costs. It
+ * is assumed that each selecatable displayed on the keyboard has a different
+ * cost to reach, rather than the same cost. The difference in cost arises due
+ * to different wait time, that is needed to reach different siblings in a
+ * containmen Hierarchy. The Huffman encoding algorithm can be parameterized for
+ * the value of k and the no. of selectables. For the time being, we have used
+ * the Venkategari probability distribution with 43 selectables, and k = 2.
+ * derivation).
+ * 
+ * (3) The keyboard layout for the text composition facility is generated
+ * automatically using the "RamayKeyboardLayoutParam" keyboard generation
+ * algorithm.
+ * 
+ * @author Fatima
+ * @author Melanie Baljko [revised the documentation; restructuring of class
+ *         methods]
+ * 
+ */
+
+public abstract class AbstractOnScreenIndirectSelectionKeyboard_FromHuffmanWithUnequalLetterCost
+		extends AbstractOnScreenIndirectSelectionKeyboard_ETthenKBL {
+
+	// private final static int ENCODING_ALPHABET_SIZE = 2;
+
+	// private final static ProbabilityDistribution<JVirtualKeyboardButton>
+	// PROBABILITY_DISTRIBUTION = new ProbDist_Venkatagiri99_Hypothesized();
+
+	// private static final int N = 43;
+	// no. of words
+
+	private List<Integer> encodingAlphabetCosts;
+
+	/**
+	 * 
+	 * @param pd
+	 *            probability distribution
+	 * @param ENCODING_ALPHABET_SIZE
+	 */
+	public AbstractOnScreenIndirectSelectionKeyboard_FromHuffmanWithUnequalLetterCost(
+			ProbabilityDistribution pd, int encodingAlphabetSize) {
+		// super(pd);
+		super(new SourceSymbolSet(pd));
+
+		// ProbabilityDistribution<JVirtualKeyboardButton> pd =
+		// PROBABILITY_DISTRIBUTION;
+		// int encodingAlphabetSize = ENCODING_ALPHABET_SIZE;
+
+		// this.keyboardLayout = keyboard;
+		initialProbDistribution = pd;
+
+		// System.out.println("PD : " + pd);
+		selectableKeyList = new SourceSymbolSet(initialProbDistribution);
+		assignProbabilitiesToCommands(initialProbDistribution, 1);
+		selectableKeyList.sort();
+
+		// List<JVirtualKeyboardButton> enabledWords =
+		// selectableKeyList.getAllEnabledButtons() ;
+
+		// System.out.println("SL : " + selectableKeyList);
+
+		// MB -> I'm not crazy about this approach; better to create a different
+		// PD and selection set
+		selectableKeyList.trimDownToSize(43);
+
+		this.containmentHierarchy = new MyTraversableEncodingTree(
+				buildContainmentHierarchy(encodingAlphabetSize));
+
+		// MB: I removed this undesireable side-effect
+		// generateLaTeXFile("HuffmanUnequalCH", this.containmentHierarchy,
+		// selectableKeyList.getEnabledFrequncyList());
+
+		// this.code = buildGrammar();
+		super.setKeyboardLayout(setUpKeyboardLayout());
+
+	}
+
+	// @Override
+	/**
+	 * 
+	 */
+	// public Node<JVirtualKeyboardButton> buildContainmentHierarchy() {
+	// // don't need to implement anything - just use method provided in parent
+	// // class
+	// return this.buildContainmentHierarchy(ENCODING_ALPHABET_SIZE);
+	// }
+	@Override
+	/*
+	 * This method sets up the keyboard layout using the automatic keyboard
+	 * generation algorithm, which takes the containment hierarchy as a
+	 * paramater.
+	 * 
+	 * @param containmentHierarchy a CH derived using Huffman for unequal letter
+	 * costs @param selectableKeyList the selected probability list (from the
+	 * available probability distribution)
+	 */
+	// public KeyboardLayout setUpKeyboardLayout() {
+	// return new RamayKeyboardLayoutParam(containmentHierarchy,
+	// selectableKeyList);
+	// // return new
+	// // RamayKeyboardLayoutLevelParameterized(containmentHierarchy,
+	// // selectableKeyList);
+	// // return new RamayKeyboardLayoutModified(containmentHierarchy,
+	// // selectableKeyList);
+	// // return new EqualRealEstateRowbasedKBL(containmentHierarchy,
+	// // selectableKeyList);
+	// // return new ProportionalRealEstateKBL(containmentHierarchy,
+	// // selectableKeyList);
+	// // return new RamayKeyboardLayoutRowBased(containmentHierarchy,
+	// // selectableKeyList);
+	// // return new RamayKeyboardLayoutRowBasedExt(containmentHierarchy,
+	// // selectableKeyList);
+	// // return new
+	// // RowBasedKeyboardLayoutLevelParameterized2(containmentHierarchy,
+	// // selectableKeyList);
+	// // RowBasedKeyboardLayoutLevelParameterized
+	// }
+	/**
+	 * This method builds the containment hierarchy based on the Huffman
+	 * algorithm for unequal letter costs. The code trees in the unequal Huffman
+	 * algorithm are constructed from the top down (in contrast to the Standard
+	 * Huffman algorithm where the trees are constructed bottom-up). The code
+	 * trees are expanded them level by level using a dynamic programming
+	 * approach, and the minimal cost tree is chosen as the optimal tree, and it
+	 * represents the containment Hierarchy. The containment hierarchy is build
+	 * first, and the keyboard layout is build afterwards.
+	 * 
+	 * 
+	 * @param k
+	 *            the outdegree of the containment Hierarchy
+	 * @return the root node of the containment hierarchy
+	 * @author Fatima Ramay
+	 */
+	public Node buildContainmentHierarchy(int k) {
+		return buildHuffmanWithUnequalLetterCosts(k);
+	}
+
+	/**
+	 * This method builds the containment hierarchy based on the Huffman
+	 * algorithm for unequal letter costs. The code trees in the unequal Huffman
+	 * algorithm are constructed from the top down (in contrast to the Standard
+	 * Huffman algorithm where the trees are constructed bottom-up). The code
+	 * trees are expanded them level by level using a dynamic programming
+	 * approach, and the minimal cost tree is chosen as the optimal tree, and it
+	 * represents the containment Hierarchy. The containment hierarchy is build
+	 * first, and the keyboard layout is build afterwards.
+	 * 
+	 * 
+	 * @param k
+	 *            the outdegree of the containment Hierarchy
+	 * @return the root node of the containment hierarchy
+	 * @author Fatima Ramay
+	 */
+	public Node buildHuffmanWithUnequalLetterCosts(int k) {
+
+		List<Double> enabledProbabilityList = selectableKeyList
+				.getProbabilitiesByRankOrder();
+		List<SourceSymbol> enabledWords = selectableKeyList
+				.getSourceSymbolsByRankOrder();
+
+		int wordsNum = enabledWords.size();
+		EncodingAlphabet encodingAlphabet = new EncodingAlphabet(k);
+
+		int rChildren = encodingAlphabet.size();
+
+		System.out.println("In method buildHuffmanWithUnequalLetterCosts(int)");
+		ConstructCodeTree<JIndirectSelectionButton> code = new ConstructCodeTree<JIndirectSelectionButton>(
+				enabledProbabilityList, encodingAlphabet.getAlphabetCostList(),
+				wordsNum, rChildren);
+
+		InternalNode codeTreeWithWords = code
+				.constructCodeforUnequalLetterCosts(encodingAlphabet,
+						enabledWords);
+
+		// System.out.println(InternalNode.toStringPlainTextLispStyleHeader());
+		// System.out.println(codeTreeWithWords.toStringPlainTextLispStyle(0));
+
+		return codeTreeWithWords;
+
+		/*
+		 * System.out.println("------------Printing Code ---------------");
+		 * 
+		 * code.toString();
+		 * 
+		 * InternalNode<JVirtualKeyboardButton> codeTree =
+		 * code.buildMinCostTree(encodingAlphabet.getAlphabetList(),
+		 * encodingAlphabet.getAlphabetCostList()); System.out.println("Printing
+		 * Code Tree ");
+		 * 
+		 * System.out.println(InternalNode.toStringPlainTextLispStyleHeader());
+		 * System.out.println(codeTree.toStringPlainTextLispStyle(0));
+		 * 
+		 * InternalNode<JVirtualKeyboardButton> codeTreeWithWords =
+		 * code.assignActualProbabilities(codeTree, enabledWords);
+		 * 
+		 * 
+		 * System.out.println(InternalNode.toStringPlainTextLispStyleHeader());
+		 * System.out.println(codeTreeWithWords.toStringPlainTextLispStyle(0));
+		 * 
+		 * 
+		 * //System.out.println("Min : " + code.searchMinCostTree());
+		 */
+	}
+
+	/**
+	 * This method returns a collection of source symbols needed so that the
+	 * prefix-free coding tree will be full. This method is not currently used
+	 * though
+	 * 
+	 * @return
+	 */
+	public List<JIndirectSelectionButton> getSourceSymbolsToFill() {
+		List<JIndirectSelectionButton> fillers = new Vector<JIndirectSelectionButton>();
+		int numFiller = EncodingUtilities.getNumFiller(encodingAlphabetCosts
+				.size(), this.getProbDist().getDomain().size());
+		for (int i = 0; i < numFiller; i++) {
+			fillers.add(getFillerSourceSymbol(i));
+		}
+		return fillers;
+	}
+
+	private JIndirectSelectionButton getFillerSourceSymbol(int identifier) {
+		final double FILLER_FREQ = 0.0;
+		JIndirectSelectionButton fillerButton = new JIndirectSelectionButton(
+				"FillerLabel" + identifier, null, "$\\emptyset$", FILLER_FREQ);
+		getProbDist().put(fillerButton, FILLER_FREQ);
+		return fillerButton;
+	}
+
+	// public int getHuffmank() {
+	// return ENCODING_ALPHABET_SIZE;
+	// }
+
+}

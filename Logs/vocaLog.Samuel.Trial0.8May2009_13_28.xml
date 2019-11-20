@@ -1,0 +1,1048 @@
+<?xml version="1.0" encoding="MacRoman" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2009-05-08T13:28:39</date>
+  <millis>1241814519960</millis>
+  <sequence>0</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>INFO</level>
+  <class>IndirectSelectionFacilityCommands.StartLoggerCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>Starting Experiment Logging.  Using filename: vocaLog.Samuel.Trial0.8May2009_13:28.xml</message>
+</record>
+<record>
+  <date>2009-05-08T13:28:39</date>
+  <millis>1241814519968</millis>
+  <sequence>1</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.StartLoggerCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>ENCODINGTREE(W{10})*S%Q%0.3230495881117747
+(W{10})*W{1}S%O%0.21062833144887694
+(W{10})*W{2}S%A%0.13826522371184
+(W{10})*W{3}S%N%0.11419802939751277
+(W{10})*W{4}S%I%0.10127604587304175
+(W{10})*W{5}S%C%0.04506541754159267
+(W{10})*W{6}S%U%0.04021967371991606
+(W{10})*W{7}S%B%0.022451946373768423
+(W{10})*W{8}S%X%0.002745921498950086
+(W{10})*W{9}S%J%0.002099822322726544
+</message>
+</record>
+<record>
+  <date>2009-05-08T13:28:39</date>
+  <millis>1241814519969</millis>
+  <sequence>2</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AppendRandomlySelectedCharacterCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	*</message>
+</record>
+<record>
+  <date>2009-05-08T13:28:39</date>
+  <millis>1241814519970</millis>
+  <sequence>3</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AppendRandomlySelectedCharacterCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>X(N)</message>
+</record>
+<record>
+  <date>2009-05-08T13:28:42</date>
+  <millis>1241814522272</millis>
+  <sequence>4</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:28:42</date>
+  <millis>1241814522272</millis>
+  <sequence>5</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(163042)</message>
+</record>
+<record>
+  <date>2009-05-08T13:28:44</date>
+  <millis>1241814524272</millis>
+  <sequence>6</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:28:44</date>
+  <millis>1241814524272</millis>
+  <sequence>7</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(1999)</message>
+</record>
+<record>
+  <date>2009-05-08T13:28:46</date>
+  <millis>1241814526271</millis>
+  <sequence>8</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:28:46</date>
+  <millis>1241814526272</millis>
+  <sequence>9</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(2000)</message>
+</record>
+<record>
+  <date>2009-05-08T13:28:48</date>
+  <millis>1241814528272</millis>
+  <sequence>10</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:28:48</date>
+  <millis>1241814528272</millis>
+  <sequence>11</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(2000)</message>
+</record>
+<record>
+  <date>2009-05-08T13:28:50</date>
+  <millis>1241814530270</millis>
+  <sequence>12</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:28:50</date>
+  <millis>1241814530271</millis>
+  <sequence>13</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(1997)</message>
+</record>
+<record>
+  <date>2009-05-08T13:28:52</date>
+  <millis>1241814532270</millis>
+  <sequence>14</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:28:52</date>
+  <millis>1241814532270</millis>
+  <sequence>15</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(1999)</message>
+</record>
+<record>
+  <date>2009-05-08T13:28:54</date>
+  <millis>1241814534270</millis>
+  <sequence>16</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:28:54</date>
+  <millis>1241814534271</millis>
+  <sequence>17</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(2000)</message>
+</record>
+<record>
+  <date>2009-05-08T13:28:56</date>
+  <millis>1241814536271</millis>
+  <sequence>18</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:28:56</date>
+  <millis>1241814536271</millis>
+  <sequence>19</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(2000)</message>
+</record>
+<record>
+  <date>2009-05-08T13:28:58</date>
+  <millis>1241814538271</millis>
+  <sequence>20</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:28:58</date>
+  <millis>1241814538272</millis>
+  <sequence>21</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(2001)</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:00</date>
+  <millis>1241814540271</millis>
+  <sequence>22</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:00</date>
+  <millis>1241814540271</millis>
+  <sequence>23</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(1999)</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:02</date>
+  <millis>1241814542270</millis>
+  <sequence>24</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:02</date>
+  <millis>1241814542271</millis>
+  <sequence>25</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(2000)</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:04</date>
+  <millis>1241814544271</millis>
+  <sequence>26</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:04</date>
+  <millis>1241814544271</millis>
+  <sequence>27</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(2000)</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:06</date>
+  <millis>1241814546271</millis>
+  <sequence>28</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:06</date>
+  <millis>1241814546271</millis>
+  <sequence>29</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(2000)</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:08</date>
+  <millis>1241814548270</millis>
+  <sequence>30</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:08</date>
+  <millis>1241814548270</millis>
+  <sequence>31</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(1998)</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:10</date>
+  <millis>1241814550270</millis>
+  <sequence>32</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:10</date>
+  <millis>1241814550271</millis>
+  <sequence>33</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(2000)</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:12</date>
+  <millis>1241814552271</millis>
+  <sequence>34</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:12</date>
+  <millis>1241814552272</millis>
+  <sequence>35</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(2001)</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:14</date>
+  <millis>1241814554271</millis>
+  <sequence>36</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:14</date>
+  <millis>1241814554271</millis>
+  <sequence>37</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(1999)</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:16</date>
+  <millis>1241814556270</millis>
+  <sequence>38</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:16</date>
+  <millis>1241814556270</millis>
+  <sequence>39</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(1999)</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:18</date>
+  <millis>1241814558270</millis>
+  <sequence>40</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:18</date>
+  <millis>1241814558271</millis>
+  <sequence>41</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(2000)</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:20</date>
+  <millis>1241814560270</millis>
+  <sequence>42</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:20</date>
+  <millis>1241814560270</millis>
+  <sequence>43</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(1999)</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:22</date>
+  <millis>1241814562271</millis>
+  <sequence>44</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:22</date>
+  <millis>1241814562271</millis>
+  <sequence>45</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(2001)</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:24</date>
+  <millis>1241814564270</millis>
+  <sequence>46</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:24</date>
+  <millis>1241814564271</millis>
+  <sequence>47</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(2000)</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:26</date>
+  <millis>1241814566271</millis>
+  <sequence>48</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:26</date>
+  <millis>1241814566271</millis>
+  <sequence>49</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(2000)</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:28</date>
+  <millis>1241814568272</millis>
+  <sequence>50</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:28</date>
+  <millis>1241814568273</millis>
+  <sequence>51</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(2002)</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:30</date>
+  <millis>1241814570272</millis>
+  <sequence>52</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:30</date>
+  <millis>1241814570272</millis>
+  <sequence>53</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(1999)</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:32</date>
+  <millis>1241814572271</millis>
+  <sequence>54</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:32</date>
+  <millis>1241814572271</millis>
+  <sequence>55</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(1999)</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:34</date>
+  <millis>1241814574271</millis>
+  <sequence>56</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:34</date>
+  <millis>1241814574271</millis>
+  <sequence>57</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(2000)</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:36</date>
+  <millis>1241814576273</millis>
+  <sequence>58</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:36</date>
+  <millis>1241814576274</millis>
+  <sequence>59</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(2002)</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:38</date>
+  <millis>1241814578271</millis>
+  <sequence>60</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:38</date>
+  <millis>1241814578271</millis>
+  <sequence>61</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(1997)</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:40</date>
+  <millis>1241814580271</millis>
+  <sequence>62</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:40</date>
+  <millis>1241814580272</millis>
+  <sequence>63</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(2001)</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:42</date>
+  <millis>1241814582273</millis>
+  <sequence>64</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:42</date>
+  <millis>1241814582273</millis>
+  <sequence>65</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(2001)</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:44</date>
+  <millis>1241814584272</millis>
+  <sequence>66</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:44</date>
+  <millis>1241814584273</millis>
+  <sequence>67</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(2000)</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:46</date>
+  <millis>1241814586271</millis>
+  <sequence>68</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:46</date>
+  <millis>1241814586272</millis>
+  <sequence>69</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(1998)</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:48</date>
+  <millis>1241814588271</millis>
+  <sequence>70</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:48</date>
+  <millis>1241814588272</millis>
+  <sequence>71</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(2000)</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:50</date>
+  <millis>1241814590273</millis>
+  <sequence>72</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:50</date>
+  <millis>1241814590273</millis>
+  <sequence>73</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(2001)</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:52</date>
+  <millis>1241814592272</millis>
+  <sequence>74</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:52</date>
+  <millis>1241814592273</millis>
+  <sequence>75</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(2000)</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:54</date>
+  <millis>1241814594271</millis>
+  <sequence>76</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:54</date>
+  <millis>1241814594271</millis>
+  <sequence>77</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(1998)</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:56</date>
+  <millis>1241814596271</millis>
+  <sequence>78</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:56</date>
+  <millis>1241814596271</millis>
+  <sequence>79</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(2000)</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:58</date>
+  <millis>1241814598272</millis>
+  <sequence>80</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:29:58</date>
+  <millis>1241814598272</millis>
+  <sequence>81</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(2000)</message>
+</record>
+<record>
+  <date>2009-05-08T13:30:00</date>
+  <millis>1241814600273</millis>
+  <sequence>82</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:30:00</date>
+  <millis>1241814600273</millis>
+  <sequence>83</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(2000)</message>
+</record>
+<record>
+  <date>2009-05-08T13:30:02</date>
+  <millis>1241814602272</millis>
+  <sequence>84</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:30:02</date>
+  <millis>1241814602272</millis>
+  <sequence>85</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(1999)</message>
+</record>
+<record>
+  <date>2009-05-08T13:30:04</date>
+  <millis>1241814604272</millis>
+  <sequence>86</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:30:04</date>
+  <millis>1241814604273</millis>
+  <sequence>87</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(2000)</message>
+</record>
+<record>
+  <date>2009-05-08T13:30:06</date>
+  <millis>1241814606273</millis>
+  <sequence>88</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:30:06</date>
+  <millis>1241814606273</millis>
+  <sequence>89</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(2000)</message>
+</record>
+<record>
+  <date>2009-05-08T13:30:08</date>
+  <millis>1241814608273</millis>
+  <sequence>90</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:30:08</date>
+  <millis>1241814608273</millis>
+  <sequence>91</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(2000)</message>
+</record>
+<record>
+  <date>2009-05-08T13:30:10</date>
+  <millis>1241814610273</millis>
+  <sequence>92</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T13:30:10</date>
+  <millis>1241814610274</millis>
+  <sequence>93</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(2000)</message>
+</record>
+</log>

@@ -1,0 +1,64 @@
+\documentclass[12pt]{article}
+\usepackage{palatino}\usepackage{fullpage}
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{epic}
+\usepackage{ecltree}
+\renewcommand{\ttdefault}{cmtt}
+\begin{document}
+\noindent \url{Test2 n2 k8}
+
+\noindent \url{[0.165092782143565, 0.107640493957604, 0.0862609786700125, 0.0706597107574457, 0.0657894736842105, 0.0583602984877501, 0.0558839067555966, 0.0517565872020075]}
+
+%% CONTAINMENT HIERARCHY %%
+\noindent\begin{tt}
+\begin{small}
+\begin{bundle}{}
+\chunk[]{\begin{bundle}{OSIETN$\sqcup$A}
+ \chunk[]{\begin{bundle}{OSIETN}
+ \chunk[]{\begin{bundle}{OSIE}
+ \chunk[]{\begin{bundle}{OSI}
+ \chunk[]{\begin{bundle}{OS}
+ \chunk[]{O}
+ \chunk[]{S}
+\end{bundle}}
+ \chunk[]{I}
+\end{bundle}}
+ \chunk[]{E}
+\end{bundle}}
+ \chunk[]{\begin{bundle}{TN}
+ \chunk[]{T}
+ \chunk[]{N}
+\end{bundle}}
+\end{bundle}}
+ \chunk[]{\begin{bundle}{$\sqcup$A}
+ \chunk[]{$\sqcup$}
+ \chunk[]{A}
+\end{bundle}}
+\end{bundle}}
+\end{bundle}
+\end{small}
+\end{tt}
+\newpage%% PROB DIST %%
+\begin{tabular}{l l}0.165092782143565	&	0.165092782143565\\
+0.107640493957604	&	0.107640493957604\\
+0.0862609786700125	&	0.0862609786700125\\
+0.0706597107574457	&	0.0706597107574457\\
+0.0657894736842105	&	0.0657894736842105\\
+0.0583602984877501	&	0.0583602984877501\\
+0.0558839067555966	&	0.0558839067555966\\
+0.0517565872020075	&	0.0517565872020075\\
+\end{tabular}\newpage
+\noindent
+\noindent Mean Cost: 2.764230997820775\\
+\begin{tabular}{l l l l}
+Source Symbol	&	User Action Seq.	&	Encoding	&	Cost\\
+O	&	\url{tbd}	&	[0, 0, 0, 0, 0]	&	5.0\\
+S	&	\url{tbd}	&	[0, 0, 0, 0, 1]	&	6.0\\
+I	&	\url{tbd}	&	[0, 0, 0, 1]	&	5.0\\
+E	&	\url{tbd}	&	[0, 0, 1]	&	4.0\\
+T	&	\url{tbd}	&	[0, 1, 0]	&	4.0\\
+N	&	\url{tbd}	&	[0, 1, 1]	&	5.0\\
+$\sqcup$	&	\url{tbd}	&	[1, 0]	&	3.0\\
+A	&	\url{tbd}	&	[1, 1]	&	4.0\\
+\end{tabular}\end{document}

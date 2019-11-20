@@ -1,0 +1,51 @@
+\documentclass[12pt]{article}\usepackage{palatino}\usepackage{fullpage}\usepackage{url}\usepackage{amsmath}\usepackage{epic}\usepackage{ecltree}\renewcommand{\ttdefault}{cmtt}\begin{document}\noindent \url{keyboardVariants.Huffman_k8}
+
+%%%% INFO FOR KEYBOARD VARIANT: keyboardVariants.Huffman_k8
+%% CONTAINMENT HIERARCHY %%
+\noindent\begin{tt}\begin{small}\begin{bundle}{}\chunk{\begin{bundle}{NRISHD$\P$LFC',.?MU$\sqcup$EGPYWBKXJQ0123V456789Z?`TAO$_{}$} \chunk{\begin{bundle}{NRISHD$\P$L$_{}$} \chunk{N} \chunk{R} \chunk{I} \chunk{S} \chunk{H} \chunk{D} \chunk{$\P$} \chunk{L}\end{bundle}} \chunk{\begin{bundle}{FC',.?MU$_{}$} \chunk{F} \chunk{C} \chunk{'} \chunk{,} \chunk{.} \chunk{?} \chunk{M} \chunk{U}\end{bundle}} \chunk{$\sqcup$} \chunk{E} \chunk{\begin{bundle}{GPYWBKXJQ0123V456789Z?`$_{}$} \chunk{G} \chunk{P} \chunk{Y} \chunk{W} \chunk{B} \chunk{\begin{bundle}{KXJQ0123$_{}$} \chunk{K} \chunk{X} \chunk{J} \chunk{Q} \chunk{0} \chunk{1} \chunk{2} \chunk{3}\end{bundle}} \chunk{V} \chunk{\begin{bundle}{456789Z?`$_{}$} \chunk{4} \chunk{5} \chunk{6} \chunk{7} \chunk{8} \chunk{9} \chunk{Z} \chunk{?`}\end{bundle}}\end{bundle}} \chunk{T} \chunk{A} \chunk{O}\end{bundle}}\end{bundle}\end{small}\end{tt}
+\newpage%% PROB DIST %%
+\begin{tabular}{l l}'	&	6.27352572145546E-4\\
+,	&	6.5211648946708E-4\\
+.	&	6.43861850359902E-4\\
+0	&	5.28296902859407E-4\\
+1	&	6.02588654824011E-4\\
+2	&	5.94334015716833E-4\\
+3	&	5.86079376609655E-4\\
+4	&	5.77824737502476E-4\\
+5	&	5.69570098395298E-4\\
+6	&	5.6131545928812E-4\\
+7	&	5.53060820180942E-4\\
+8	&	5.44806181073763E-4\\
+9	&	5.36551541966585E-4\\
+$\sqcup$	&	0.165092782143565\\
+?	&	6.35607211252724E-4\\
+A	&	0.0706597107574457\\
+B	&	0.0114739483589777\\
+C	&	0.0230304431090273\\
+D	&	0.0279832265733342\\
+?`	&	6.10843293931189E-4\\
+E	&	0.107640493957604\\
+F	&	0.0205540513768738\\
+G	&	0.0164267318232847\\
+H	&	0.0435844944859011\\
+I	&	0.0501056593805719\\
+J	&	0.00107310308393317\\
+K	&	0.00346694842501486\\
+L	&	0.0312025358251337\\
+M	&	0.0205540513768738\\
+N	&	0.0558839067555966\\
+O	&	0.0657894736842105\\
+P	&	0.0122994122696956\\
+Q	&	9.90556692861388E-4\\
+S	&	0.0517565872020075\\
+$\sqcup$	&	0.165092782143565\\
+T	&	0.0862609786700125\\
+U	&	0.0238559070197451\\
+V	&	0.00759426797860398\\
+W	&	0.0164267318232847\\
+X	&	0.0014032886482203\\
+Y	&	0.0164267318232847\\
+Z	&	6.60371128574259E-4\\
+$\P$	&	6.19097933038368E-4\\
+?`	&	6.10843293931189E-4\\
+\end{tabular}\end{document}

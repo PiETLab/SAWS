@@ -1,0 +1,34 @@
+\documentclass[12pt]{article}
+\usepackage{palatino}\usepackage{fullpage}
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{epic}
+\usepackage{ecltree}
+\renewcommand{\ttdefault}{cmtt}
+\begin{document}
+\noindent \url{Test1_6 n2 k2}
+
+\noindent \url{[0.165092782143565, 0.107640493957604]}
+
+%% CONTAINMENT HIERARCHY %%
+\noindent\begin{tt}
+\begin{small}
+\begin{bundle}{}
+\chunk[]{\begin{bundle}{$\sqcup$E}
+ \chunk[]{$\sqcup$}
+ \chunk[]{E}
+\end{bundle}}
+\end{bundle}
+\end{small}
+\end{tt}
+\newpage%% PROB DIST %%
+\begin{tabular}{l l}0.165092782143565	&	0.165092782143565\\
+0.107640493957604	&	0.107640493957604\\
+\end{tabular}\newpage
+\noindent
+\noindent Mean Cost: 0.545466552202338\\
+\begin{tabular}{l l l l}
+Source Symbol	&	User Action Seq.	&	Encoding	&	Cost\\
+$\sqcup$	&	\url{tbd}	&	[0]	&	2.0\\
+E	&	\url{tbd}	&	[1]	&	2.0\\
+\end{tabular}\end{document}

@@ -1,0 +1,45 @@
+\documentclass[12pt]{article}
+\usepackage{palatino}\usepackage{fullpage}
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{epic}
+\usepackage{ecltree}
+\renewcommand{\ttdefault}{cmtt}
+\begin{document}
+\noindent \url{encodingTrees.HuffmanEqualCosts}
+
+%% CONTAINMENT HIERARCHY %%
+\noindent\begin{tt}
+\begin{small}
+\begin{bundle}{}
+\chunk[]{\begin{bundle}{$\sqcup$EANICUBXJ}
+ \chunk[]{$\sqcup$}
+ \chunk[]{E}
+ \chunk[]{A}
+ \chunk[]{N}
+ \chunk[]{I}
+ \chunk[]{C}
+ \chunk[]{U}
+ \chunk[]{B}
+ \chunk[]{X}
+ \chunk[]{J}
+\end{bundle}}
+\end{bundle}
+\end{small}
+\end{tt}
+\newpage\newpage
+\noindent
+\noindent Mean Cost: 0.5162608405603728\\
+\begin{tabular}{l l l l}
+Source Symbol	&	User Action Seq.	&	Encoding	&	Cost\\
+$\sqcup$ $\rightarrow$ S	&	\\
+E $\rightarrow$ W{$^{1}$}S	&	\\
+A $\rightarrow$ W{$^{2}$}S	&	\\
+N $\rightarrow$ W{$^{3}$}S	&	\\
+I $\rightarrow$ W{$^{4}$}S	&	\\
+C $\rightarrow$ W{$^{5}$}S	&	\\
+U $\rightarrow$ W{$^{6}$}S	&	\\
+B $\rightarrow$ W{$^{7}$}S	&	\\
+X $\rightarrow$ W{$^{8}$}S	&	\\
+J $\rightarrow$ W{$^{9}$}S	&	\\
+\end{tabular}\end{document}

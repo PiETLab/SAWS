@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Prj-InformationRateAnalysis"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Prj-MyUtilityClasses"/>
+	<classpathentry kind="lib" path="Applications/freetts-1.2.1/lib/cmu_time_awb.jar"/>
+	<classpathentry kind="lib" path="Applications/freetts-1.2.1/lib/cmu_us_kal.jar"/>
+	<classpathentry kind="lib" path="Applications/freetts-1.2.1/lib/cmudict04.jar"/>
+	<classpathentry kind="lib" path="Applications/freetts-1.2.1/lib/cmulex.jar"/>
+	<classpathentry kind="lib" path="Applications/freetts-1.2.1/lib/cmutimelex.jar"/>
+	<classpathentry kind="lib" path="Applications/freetts-1.2.1/lib/en_us.jar"/>
+	<classpathentry kind="lib" path="Applications/freetts-1.2.1/lib/freetts.jar"/>
+	<classpathentry kind="lib" path="Applications/freetts-1.2.1/lib/jsapi.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Prj-LeastSquaresRegression"/>
+	<classpathentry kind="lib" path="C:/eclipse-SDK-3.2.2-win32/eclipse/plugins/org.junit_3.8.1/junit.jar"/>
+	<classpathentry kind="lib" path="C:/j2sdk1.4.2_14/jre/lib/rt.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

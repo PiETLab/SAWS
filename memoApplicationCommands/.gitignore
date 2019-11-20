@@ -1,0 +1,12 @@
+/AddresseeSelectionCommand.class
+/CompleteTheMemoBodyFieldCommand.class
+/CompleteTheSubjectFieldCommand.class
+/CompleteTheToFieldCommand.class
+/DefaultMemoFillerCommand.class
+/EditOptionCommand.class
+/GoToEditSubmenuCommand.class
+/MemoApplicationCommand.class
+/MemoBodyGoToReviewSourceSymbolCommand.class
+/MemoBodySignifyAsFinishedSourceSymbolCommand.class
+/StopTheMemoCompositionCommand.class
+/SubjectLineSelectedCommand.class

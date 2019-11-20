@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="MacRoman" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2009-05-08T12:04:33</date>
+  <millis>1241809473705</millis>
+  <sequence>0</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>INFO</level>
+  <class>IndirectSelectionFacilityCommands.StartLoggerCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>Starting Experiment Logging.  Using filename: vocaLog.Samuel.Trial0.8May2009_12:04.xml</message>
+</record>
+<record>
+  <date>2009-05-08T12:04:33</date>
+  <millis>1241809473714</millis>
+  <sequence>1</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.StartLoggerCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>ENCODINGTREE(W{10})*S%Q%0.3230495881117747
+(W{10})*W{1}S%O%0.21062833144887694
+(W{10})*W{2}S%A%0.13826522371184
+(W{10})*W{3}S%N%0.11419802939751277
+(W{10})*W{4}S%I%0.10127604587304175
+(W{10})*W{5}S%C%0.04506541754159267
+(W{10})*W{6}S%U%0.04021967371991606
+(W{10})*W{7}S%B%0.022451946373768423
+(W{10})*W{8}S%X%0.002745921498950086
+(W{10})*W{9}S%J%0.002099822322726544
+</message>
+</record>
+<record>
+  <date>2009-05-08T12:04:34</date>
+  <millis>1241809474015</millis>
+  <sequence>2</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINE</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>1	WAIT</message>
+</record>
+<record>
+  <date>2009-05-08T12:04:34</date>
+  <millis>1241809474015</millis>
+  <sequence>3</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>FINER</level>
+  <class>IndirectSelectionFacilityCommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>10</thread>
+  <message>W(805)</message>
+</record>
+</log>

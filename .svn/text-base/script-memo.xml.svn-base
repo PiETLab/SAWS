@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project Prj-AssistiveTechnology">
+<!--this file was created by Eclipse Runnable JAR Export Wizard-->
+<!--ANT 1.7 is required                                        -->
+<target name="create_run_jar">
+<jar destfile="/Users/mb/Library/tmp/memo-app.jar" filesetmanifest="mergewithoutmain">
+<manifest>
+<attribute name="Built-By" value="${user.name}"/>
+<attribute name="Main-Class" value="driverApps_MemoFillerApps.MeaganMemoFillerDriver"/>
+<attribute name="Class-Path" value="."/>
+</manifest>
+<fileset dir="/Users/mb/Documents/workspace/Prj-AssistiveTechnology"/>
+<fileset dir="/Users/mb/Documents/workspace/Prj-JTextPro"/>
+</jar>
+</target>
+</project>

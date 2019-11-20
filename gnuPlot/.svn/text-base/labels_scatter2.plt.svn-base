@@ -1,0 +1,10 @@
+set label "keyboardVariants.Huffman_k10" at 5.599280019040819,4317.142687135547
+set label "keyboardVariants.Huffman_k2" at 6.534228846840415,2957.9465667023674
+set label "keyboardVariants.Huffman_k7" at 5.426573842675235,4094.335356420326
+set label "keyboardVariants.Huffman_k8" at 5.550874687611568,4296.584553135785
+set label "keyboardVariants.LinearModLexicographic" at 12.897819231226938,12097.819231226935
+set label "keyboardVariants.LinearModQWERTY" at 16.003406521480432,15203.406521480434
+set label "keyboardVariants.LinearUnigram" at 9.61327799595382,8813.277995953822
+set label "keyboardVariants.RowColModLexicographic" at 5.637004641199574,4037.5996667856703
+set label "keyboardVariants.RowColModQWERTY" at 6.7350053552302755,5135.005355230274
+set label "keyboardVariants.RowColUnigram" at 4.777638938474355,3198.155420683087

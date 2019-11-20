@@ -1,0 +1,10 @@
+Created file testingCorpus3-TCFLinearModQWERTY
+(1) GlossID
+(2)num(words)
+(3)num(chars)
+(4)num(dec)
+(5)num(dec|wi)
+(6)num(dec|cj)
+(1)	(2)	(3)	(4)	(5)	(6)
+001	0	5	155	w=31,31,31,31,31	c= :31, :31, :31, :31, :31
+002	1	5	160	w=32,32,32,32,32	c=¶:32,¶:32,¶:32,¶:32,¶:32

@@ -1,0 +1,34 @@
+\documentclass[12pt]{article}
+\usepackage{palatino}\usepackage{fullpage}
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{epic}
+\usepackage{ecltree}
+\renewcommand{\ttdefault}{cmtt}
+\begin{document}
+\noindent \url{test13_basic3}
+
+\noindent \url{[0.3333333333333333, 0.3333333333333333, 0.3333333333333333]}
+
+%% CONTAINMENT HIERARCHY %%
+\noindent\begin{tt}
+\begin{small}
+\begin{bundle}{}
+\chunk[0]{\begin{bundle}{$\sqcup$ET}
+ \chunk[1]{$\sqcup$}
+ \chunk[1]{E}
+ \chunk[2]{T}
+\end{bundle}}
+\end{bundle}
+\end{small}
+\end{tt}
+\newpage%% PROB DIST %%
+\begin{tabular}{l l}0.3333333333333333	&	0.3333333333333333\\
+0.3333333333333333	&	0.3333333333333333\\
+0.3333333333333333	&	0.3333333333333333\\
+\end{tabular}\newpage
+\noindent
+\noindent Mean Cost: 0.0\\
+\begin{tabular}{l l l l}
+Source Symbol	&	User Action Seq.	&	Encoding	&	Cost\\
+\end{tabular}\end{document}

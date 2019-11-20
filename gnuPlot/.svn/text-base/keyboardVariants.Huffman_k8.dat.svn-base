@@ -1,0 +1,8 @@
+# (1) Name of Variant
+# (2) Mean outdegree of containment hierarchy
+# (3) Num Reative Actions
+# (4) Num Passive Actions
+# (5) Total Num Actions
+# (6) Time Req'd (given U1)
+# (7) Time Req'd (given U2)
+keyboardVariants.Huffman_k8	8.0	1.5678626680947285	3.9830120195168406	5.550874687611568	4296.584553135785	2305.0785433773653

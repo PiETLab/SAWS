@@ -1,0 +1,42 @@
+\documentclass[12pt]{article}
+\usepackage{palatino}\usepackage{fullpage}
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{epic}
+\usepackage{ecltree}
+\renewcommand{\ttdefault}{cmtt}
+\begin{document}
+\noindent \url{Test4_Golin98_Figb_b}
+
+\noindent \url{[0.2, 0.2, 0.2, 0.2, 0.2]}
+
+%% CONTAINMENT HIERARCHY %%
+\noindent\begin{tt}
+\begin{small}
+\begin{bundle}{}
+\chunk[0]{\begin{bundle}{$\sqcup$ETAO}
+ \chunk[1]{\begin{bundle}{$\sqcup$E}
+ \chunk[2]{$\sqcup$}
+ \chunk[2]{E}
+\end{bundle}}
+ \chunk[1]{\begin{bundle}{TA}
+ \chunk[2]{T}
+ \chunk[2]{A}
+\end{bundle}}
+ \chunk[2]{O}
+\end{bundle}}
+\end{bundle}
+\end{small}
+\end{tt}
+\newpage%% PROB DIST %%
+\begin{tabular}{l l}0.2	&	0.2\\
+0.2	&	0.2\\
+0.2	&	0.2\\
+0.2	&	0.2\\
+0.2	&	0.2\\
+\end{tabular}\newpage
+\noindent
+\noindent Mean Cost: 0.0\\
+\begin{tabular}{l l l l}
+Source Symbol	&	User Action Seq.	&	Encoding	&	Cost\\
+\end{tabular}\end{document}

@@ -1,0 +1,125 @@
+\documentclass[12pt]{article}
+\usepackage{palatino}\usepackage{fullpage}
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{epic}
+\usepackage{ecltree}
+\renewcommand{\ttdefault}{cmtt}
+\begin{document}
+\noindent \url{encodingTrees.RowColFromKB}
+
+%% CONTAINMENT HIERARCHY %%
+\noindent\begin{tt}
+\begin{small}
+\begin{bundle}{}
+\chunk[]{\begin{bundle}{$\sqcup$TIHFBEORCPZASUGQ\#NDYJ,0LWX.12MK?345V'6789$\P$}
+ \chunk[]{\begin{bundle}{$\sqcup$TIHFB}
+ \chunk[]{$\sqcup$}
+ \chunk[]{T}
+ \chunk[]{I}
+ \chunk[]{H}
+ \chunk[]{F}
+ \chunk[]{B}
+\end{bundle}}
+ \chunk[]{\begin{bundle}{EORCPZ}
+ \chunk[]{E}
+ \chunk[]{O}
+ \chunk[]{R}
+ \chunk[]{C}
+ \chunk[]{P}
+ \chunk[]{Z}
+\end{bundle}}
+ \chunk[]{\begin{bundle}{ASUGQ\#}
+ \chunk[]{A}
+ \chunk[]{S}
+ \chunk[]{U}
+ \chunk[]{G}
+ \chunk[]{Q}
+ \chunk[]{\#}
+\end{bundle}}
+ \chunk[]{\begin{bundle}{NDYJ,0}
+ \chunk[]{N}
+ \chunk[]{D}
+ \chunk[]{Y}
+ \chunk[]{J}
+ \chunk[]{,}
+ \chunk[]{0}
+\end{bundle}}
+ \chunk[]{\begin{bundle}{LWX.12}
+ \chunk[]{L}
+ \chunk[]{W}
+ \chunk[]{X}
+ \chunk[]{.}
+ \chunk[]{1}
+ \chunk[]{2}
+\end{bundle}}
+ \chunk[]{\begin{bundle}{MK?345}
+ \chunk[]{M}
+ \chunk[]{K}
+ \chunk[]{?}
+ \chunk[]{3}
+ \chunk[]{4}
+ \chunk[]{5}
+\end{bundle}}
+ \chunk[]{\begin{bundle}{V'6789}
+ \chunk[]{V}
+ \chunk[]{'}
+ \chunk[]{6}
+ \chunk[]{7}
+ \chunk[]{8}
+ \chunk[]{9}
+\end{bundle}}
+ \chunk[]{$\P$}
+\end{bundle}}
+\end{bundle}
+\end{small}
+\end{tt}
+\newpage\newpage
+\noindent
+\noindent Mean Cost: 0.0\\
+\begin{tabular}{l l l l}
+Source Symbol	&	User Action Seq.	&	Encoding	&	Cost\\
+$\sqcup$ $\rightarrow$ SS	&	\\
+T $\rightarrow$ SW{$^{1}$}S	&	\\
+I $\rightarrow$ SW{$^{2}$}S	&	\\
+H $\rightarrow$ SW{$^{3}$}S	&	\\
+F $\rightarrow$ SW{$^{4}$}S	&	\\
+B $\rightarrow$ SW{$^{5}$}S	&	\\
+E $\rightarrow$ W{$^{1}$}SS	&	\\
+O $\rightarrow$ W{$^{1}$}SW{$^{1}$}S	&	\\
+R $\rightarrow$ W{$^{1}$}SW{$^{2}$}S	&	\\
+C $\rightarrow$ W{$^{1}$}SW{$^{3}$}S	&	\\
+P $\rightarrow$ W{$^{1}$}SW{$^{4}$}S	&	\\
+Z $\rightarrow$ W{$^{1}$}SW{$^{5}$}S	&	\\
+A $\rightarrow$ W{$^{2}$}SS	&	\\
+S $\rightarrow$ W{$^{2}$}SW{$^{1}$}S	&	\\
+U $\rightarrow$ W{$^{2}$}SW{$^{2}$}S	&	\\
+G $\rightarrow$ W{$^{2}$}SW{$^{3}$}S	&	\\
+Q $\rightarrow$ W{$^{2}$}SW{$^{4}$}S	&	\\
+\# $\rightarrow$ W{$^{2}$}SW{$^{5}$}S	&	\\
+N $\rightarrow$ W{$^{3}$}SS	&	\\
+D $\rightarrow$ W{$^{3}$}SW{$^{1}$}S	&	\\
+Y $\rightarrow$ W{$^{3}$}SW{$^{2}$}S	&	\\
+J $\rightarrow$ W{$^{3}$}SW{$^{3}$}S	&	\\
+, $\rightarrow$ W{$^{3}$}SW{$^{4}$}S	&	\\
+0 $\rightarrow$ W{$^{3}$}SW{$^{5}$}S	&	\\
+L $\rightarrow$ W{$^{4}$}SS	&	\\
+W $\rightarrow$ W{$^{4}$}SW{$^{1}$}S	&	\\
+X $\rightarrow$ W{$^{4}$}SW{$^{2}$}S	&	\\
+. $\rightarrow$ W{$^{4}$}SW{$^{3}$}S	&	\\
+1 $\rightarrow$ W{$^{4}$}SW{$^{4}$}S	&	\\
+2 $\rightarrow$ W{$^{4}$}SW{$^{5}$}S	&	\\
+M $\rightarrow$ W{$^{5}$}SS	&	\\
+K $\rightarrow$ W{$^{5}$}SW{$^{1}$}S	&	\\
+? $\rightarrow$ W{$^{5}$}SW{$^{2}$}S	&	\\
+3 $\rightarrow$ W{$^{5}$}SW{$^{3}$}S	&	\\
+4 $\rightarrow$ W{$^{5}$}SW{$^{4}$}S	&	\\
+5 $\rightarrow$ W{$^{5}$}SW{$^{5}$}S	&	\\
+V $\rightarrow$ W{$^{6}$}SS	&	\\
+' $\rightarrow$ W{$^{6}$}SW{$^{1}$}S	&	\\
+6 $\rightarrow$ W{$^{6}$}SW{$^{2}$}S	&	\\
+7 $\rightarrow$ W{$^{6}$}SW{$^{3}$}S	&	\\
+8 $\rightarrow$ W{$^{6}$}SW{$^{4}$}S	&	\\
+9 $\rightarrow$ W{$^{6}$}SW{$^{5}$}S	&	\\
+$\P$ $\rightarrow$ W{$^{7}$}S	&	\\
+\end{tabular}\end{document}

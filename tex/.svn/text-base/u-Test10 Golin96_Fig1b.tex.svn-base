@@ -1,0 +1,48 @@
+\documentclass[12pt]{article}
+\usepackage{palatino}\usepackage{fullpage}
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{epic}
+\usepackage{ecltree}
+\renewcommand{\ttdefault}{cmtt}
+\begin{document}
+\noindent \url{Test10 Golin96_Fig1b}
+
+\noindent \url{[0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666]}
+
+%% CONTAINMENT HIERARCHY %%
+\noindent\begin{tt}
+\begin{small}
+\begin{bundle}{}
+\chunk[0]{\begin{bundle}{TIA$\sqcup$EO}
+ \chunk[1]{\begin{bundle}{TIA$\sqcup$}
+ \chunk[2]{\begin{bundle}{TIA}
+ \chunk[3]{\begin{bundle}{TI}
+ \chunk[4]{T}
+ \chunk[5]{I}
+\end{bundle}}
+ \chunk[4]{A}
+\end{bundle}}
+ \chunk[3]{$\sqcup$}
+\end{bundle}}
+ \chunk[2]{\begin{bundle}{EO}
+ \chunk[3]{E}
+ \chunk[4]{O}
+\end{bundle}}
+\end{bundle}}
+\end{bundle}
+\end{small}
+\end{tt}
+\newpage%% PROB DIST %%
+\begin{tabular}{l l}0.16666666666666666	&	0.16666666666666666\\
+0.16666666666666666	&	0.16666666666666666\\
+0.16666666666666666	&	0.16666666666666666\\
+0.16666666666666666	&	0.16666666666666666\\
+0.16666666666666666	&	0.16666666666666666\\
+0.16666666666666666	&	0.16666666666666666\\
+\end{tabular}\newpage
+\noindent
+\noindent Mean Cost: 0.0\\
+\begin{tabular}{l l l l}
+Source Symbol	&	User Action Seq.	&	Encoding	&	Cost\\
+\end{tabular}\end{document}

@@ -1,0 +1,44 @@
+\documentclass[12pt]{article}
+\usepackage{palatino}\usepackage{fullpage}
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{epic}
+\usepackage{ecltree}
+\renewcommand{\ttdefault}{cmtt}
+\begin{document}
+\noindent \url{Test8 Golin2002_Fig1b}
+
+\noindent \url{[0.3, 0.3, 0.2, 0.2]}
+
+%% CONTAINMENT HIERARCHY %%
+\noindent\begin{tt}
+\begin{small}
+\begin{bundle}{}
+\chunk[]{\begin{bundle}{$\sqcup$ATE}
+ \chunk[]{\begin{bundle}{$\sqcup$AT}
+ \chunk[]{\begin{bundle}{$\sqcup$A}
+ \chunk[]{$\sqcup$}
+ \chunk[]{A}
+\end{bundle}}
+ \chunk[]{T}
+\end{bundle}}
+ \chunk[]{E}
+\end{bundle}}
+\end{bundle}
+\end{small}
+\end{tt}
+\newpage%% PROB DIST %%
+\begin{tabular}{l l}0.3	&	0.3\\
+0.3	&	0.3\\
+0.2	&	0.2\\
+0.2	&	0.2\\
+\end{tabular}\newpage
+\noindent
+\noindent Mean Cost: 1.5165422967707856\\
+\begin{tabular}{l l l l}
+Source Symbol	&	User Action Seq.	&	Encoding	&	Cost\\
+$\sqcup$	&	\url{tbd}	&	[0, 0, 0]	&	3.0\\
+A	&	\url{tbd}	&	[0, 0, 1]	&	5.0\\
+T	&	\url{tbd}	&	[0, 1]	&	4.0\\
+E	&	\url{tbd}	&	[1]	&	3.0\\
+\end{tabular}\end{document}

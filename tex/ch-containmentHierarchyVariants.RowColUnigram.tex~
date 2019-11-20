@@ -1,0 +1,154 @@
+\documentclass[12pt]{article}
+\usepackage{palatino}\usepackage{fullpage}
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{epic}
+\usepackage{ecltree}
+\renewcommand{\ttdefault}{cmtt}
+\begin{document}
+\noindent \url{containmentHierarchyVariants.RowColUnigram}
+
+\noindent \url{probabilityDistributionsVOCA.ProbDist_Venkatagiri99_Hypothesized}
+
+%%%% INFO FOR KEYBOARD VARIANT: containmentHierarchyVariants.RowColUnigram
+%% CONTAINMENT HIERARCHY %%
+\noindent\begin{tt}\begin{small}\begin{bundle}{}\chunk{\begin{bundle}{$\sqcup$TIHFBEORCPZASUGQ?`NDYJ,0LWX.12MK?345V'6789$\P$} \chunk{\begin{bundle}{$\sqcup$TIHFB} \chunk{$\sqcup$} \chunk{T} \chunk{I} \chunk{H} \chunk{F} \chunk{B}\end{bundle}} \chunk{\begin{bundle}{EORCPZ} \chunk{E} \chunk{O} \chunk{R} \chunk{C} \chunk{P} \chunk{Z}\end{bundle}} \chunk{\begin{bundle}{ASUGQ?`} \chunk{A} \chunk{S} \chunk{U} \chunk{G} \chunk{Q} \chunk{?`}\end{bundle}} \chunk{\begin{bundle}{NDYJ,0} \chunk{N} \chunk{D} \chunk{Y} \chunk{J} \chunk{,} \chunk{0}\end{bundle}} \chunk{\begin{bundle}{LWX.12} \chunk{L} \chunk{W} \chunk{X} \chunk{.} \chunk{1} \chunk{2}\end{bundle}} \chunk{\begin{bundle}{MK?345} \chunk{M} \chunk{K} \chunk{?} \chunk{3} \chunk{4} \chunk{5}\end{bundle}} \chunk{\begin{bundle}{V'6789} \chunk{V} \chunk{'} \chunk{6} \chunk{7} \chunk{8} \chunk{9}\end{bundle}} \chunk{$\P$}\end{bundle}}\end{bundle}\end{small}\end{tt}
+\newpage%% PROB DIST %%
+\noindent \url{probabilityDistributionsVOCA.ProbDist_Venkatagiri99_Hypothesized}
+
+\begin{tabular}{l l}but:[DEL,DEL]	&	6.10843293931189E-4\\
+but:[D,D]	&	0.0279832265733342\\
+but:[T,T]	&	0.0862609786700125\\
+but:[R,R]	&	0.0501056593805719\\
+but:[9,9]	&	5.36551541966585E-4\\
+but:[5,5]	&	5.69570098395298E-4\\
+but:[6,6]	&	5.6131545928812E-4\\
+but:[C,C]	&	0.0230304431090273\\
+but:[X,X]	&	0.0014032886482203\\
+but:[W,W]	&	0.0164267318232847\\
+but:[E,E]	&	0.107640493957604\\
+but:[,,,]	&	6.5211648946708E-4\\
+but:[2,2]	&	5.94334015716833E-4\\
+but:[O,O]	&	0.0657894736842105\\
+but:[',']	&	6.27352572145546E-4\\
+but:[B,B]	&	0.0114739483589777\\
+but:[N,N]	&	0.0558839067555966\\
+but:[K,K]	&	0.00346694842501486\\
+but:[H,H]	&	0.0435844944859011\\
+but:[M,M]	&	0.0205540513768738\\
+but:[G,G]	&	0.0164267318232847\\
+but:[U,U]	&	0.0238559070197451\\
+but:[J,J]	&	0.00107310308393317\\
+but:[¦,¦]	&	6.19097933038368E-4\\
+but:[F,F]	&	0.0205540513768738\\
+but:[.,.]	&	6.43861850359902E-4\\
+but:[S,S]	&	0.0517565872020075\\
+but:[3,3]	&	5.86079376609655E-4\\
+but:[L,L]	&	0.0312025358251337\\
+but:[?,?]	&	6.35607211252724E-4\\
+but:[4,4]	&	5.77824737502476E-4\\
+but:[7,7]	&	5.53060820180942E-4\\
+but:[À,À]	&	6.10843293931189E-4\\
+but:[V,V]	&	0.00759426797860398\\
+but:[<html>?</html>,<html>?</html>]	&	0.165092782143565\\
+but:[SP,SP]	&	0.165092782143565\\
+but:[I,I]	&	0.0583602984877501\\
+but:[Z,Z]	&	6.60371128574259E-4\\
+but:[A,A]	&	0.0706597107574457\\
+but:[8,8]	&	5.44806181073763E-4\\
+but:[P,P]	&	0.0122994122696956\\
+but:[Y,Y]	&	0.0164267318232847\\
+but:[Q,Q]	&	9.90556692861388E-4\\
+but:[0,0]	&	5.28296902859407E-4\\
+but:[1,1]	&	6.02588654824011E-4\\
+\end{tabular}\newpage
+\noindent
+\noindent sourceSymbol $\leftarrow$ userActionSequence $\leftarrow$ actionEventSequence $\leftarrow$ encoding\\
+$\sqcup$ $\leftarrow$ \url{(W{8})*S(W{6})*S} $\leftarrow$ tbd $\leftarrow$ [0, 0]\\
+T $\leftarrow$ \url{(W{8})*S(W{6})*W{1}S} $\leftarrow$ tbd $\leftarrow$ [0, 1]\\
+I $\leftarrow$ \url{(W{8})*S(W{6})*W{2}S} $\leftarrow$ tbd $\leftarrow$ [0, 2]\\
+H $\leftarrow$ \url{(W{8})*S(W{6})*W{3}S} $\leftarrow$ tbd $\leftarrow$ [0, 3]\\
+F $\leftarrow$ \url{(W{8})*S(W{6})*W{4}S} $\leftarrow$ tbd $\leftarrow$ [0, 4]\\
+B $\leftarrow$ \url{(W{8})*S(W{6})*W{5}S} $\leftarrow$ tbd $\leftarrow$ [0, 5]\\
+E $\leftarrow$ \url{(W{8})*W{1}S(W{6})*S} $\leftarrow$ tbd $\leftarrow$ [1, 0]\\
+O $\leftarrow$ \url{(W{8})*W{1}S(W{6})*W{1}S} $\leftarrow$ tbd $\leftarrow$ [1, 1]\\
+R $\leftarrow$ \url{(W{8})*W{1}S(W{6})*W{2}S} $\leftarrow$ tbd $\leftarrow$ [1, 2]\\
+C $\leftarrow$ \url{(W{8})*W{1}S(W{6})*W{3}S} $\leftarrow$ tbd $\leftarrow$ [1, 3]\\
+P $\leftarrow$ \url{(W{8})*W{1}S(W{6})*W{4}S} $\leftarrow$ tbd $\leftarrow$ [1, 4]\\
+Z $\leftarrow$ \url{(W{8})*W{1}S(W{6})*W{5}S} $\leftarrow$ tbd $\leftarrow$ [1, 5]\\
+A $\leftarrow$ \url{(W{8})*W{2}S(W{6})*S} $\leftarrow$ tbd $\leftarrow$ [2, 0]\\
+S $\leftarrow$ \url{(W{8})*W{2}S(W{6})*W{1}S} $\leftarrow$ tbd $\leftarrow$ [2, 1]\\
+U $\leftarrow$ \url{(W{8})*W{2}S(W{6})*W{2}S} $\leftarrow$ tbd $\leftarrow$ [2, 2]\\
+G $\leftarrow$ \url{(W{8})*W{2}S(W{6})*W{3}S} $\leftarrow$ tbd $\leftarrow$ [2, 3]\\
+Q $\leftarrow$ \url{(W{8})*W{2}S(W{6})*W{4}S} $\leftarrow$ tbd $\leftarrow$ [2, 4]\\
+?` $\leftarrow$ \url{(W{8})*W{2}S(W{6})*W{5}S} $\leftarrow$ tbd $\leftarrow$ [2, 5]\\
+N $\leftarrow$ \url{(W{8})*W{3}S(W{6})*S} $\leftarrow$ tbd $\leftarrow$ [3, 0]\\
+D $\leftarrow$ \url{(W{8})*W{3}S(W{6})*W{1}S} $\leftarrow$ tbd $\leftarrow$ [3, 1]\\
+Y $\leftarrow$ \url{(W{8})*W{3}S(W{6})*W{2}S} $\leftarrow$ tbd $\leftarrow$ [3, 2]\\
+J $\leftarrow$ \url{(W{8})*W{3}S(W{6})*W{3}S} $\leftarrow$ tbd $\leftarrow$ [3, 3]\\
+, $\leftarrow$ \url{(W{8})*W{3}S(W{6})*W{4}S} $\leftarrow$ tbd $\leftarrow$ [3, 4]\\
+0 $\leftarrow$ \url{(W{8})*W{3}S(W{6})*W{5}S} $\leftarrow$ tbd $\leftarrow$ [3, 5]\\
+L $\leftarrow$ \url{(W{8})*W{4}S(W{6})*S} $\leftarrow$ tbd $\leftarrow$ [4, 0]\\
+W $\leftarrow$ \url{(W{8})*W{4}S(W{6})*W{1}S} $\leftarrow$ tbd $\leftarrow$ [4, 1]\\
+X $\leftarrow$ \url{(W{8})*W{4}S(W{6})*W{2}S} $\leftarrow$ tbd $\leftarrow$ [4, 2]\\
+. $\leftarrow$ \url{(W{8})*W{4}S(W{6})*W{3}S} $\leftarrow$ tbd $\leftarrow$ [4, 3]\\
+1 $\leftarrow$ \url{(W{8})*W{4}S(W{6})*W{4}S} $\leftarrow$ tbd $\leftarrow$ [4, 4]\\
+2 $\leftarrow$ \url{(W{8})*W{4}S(W{6})*W{5}S} $\leftarrow$ tbd $\leftarrow$ [4, 5]\\
+M $\leftarrow$ \url{(W{8})*W{5}S(W{6})*S} $\leftarrow$ tbd $\leftarrow$ [5, 0]\\
+K $\leftarrow$ \url{(W{8})*W{5}S(W{6})*W{1}S} $\leftarrow$ tbd $\leftarrow$ [5, 1]\\
+? $\leftarrow$ \url{(W{8})*W{5}S(W{6})*W{2}S} $\leftarrow$ tbd $\leftarrow$ [5, 2]\\
+3 $\leftarrow$ \url{(W{8})*W{5}S(W{6})*W{3}S} $\leftarrow$ tbd $\leftarrow$ [5, 3]\\
+4 $\leftarrow$ \url{(W{8})*W{5}S(W{6})*W{4}S} $\leftarrow$ tbd $\leftarrow$ [5, 4]\\
+5 $\leftarrow$ \url{(W{8})*W{5}S(W{6})*W{5}S} $\leftarrow$ tbd $\leftarrow$ [5, 5]\\
+V $\leftarrow$ \url{(W{8})*W{6}S(W{6})*S} $\leftarrow$ tbd $\leftarrow$ [6, 0]\\
+' $\leftarrow$ \url{(W{8})*W{6}S(W{6})*W{1}S} $\leftarrow$ tbd $\leftarrow$ [6, 1]\\
+6 $\leftarrow$ \url{(W{8})*W{6}S(W{6})*W{2}S} $\leftarrow$ tbd $\leftarrow$ [6, 2]\\
+7 $\leftarrow$ \url{(W{8})*W{6}S(W{6})*W{3}S} $\leftarrow$ tbd $\leftarrow$ [6, 3]\\
+8 $\leftarrow$ \url{(W{8})*W{6}S(W{6})*W{4}S} $\leftarrow$ tbd $\leftarrow$ [6, 4]\\
+9 $\leftarrow$ \url{(W{8})*W{6}S(W{6})*W{5}S} $\leftarrow$ tbd $\leftarrow$ [6, 5]\\
+$\P$ $\leftarrow$ \url{(W{8})*W{7}S} $\leftarrow$ tbd $\leftarrow$ [7]\\
+\begin{tabular}{l l l}Source Symbol	&	User Action Seq.	&	Encoding	&	Cost\\
+$\sqcup$	&	\url{(W{8})*S(W{6})*S}	&	[0, 0]	&	0.0\\
+T	&	\url{(W{8})*S(W{6})*W{1}S}	&	[0, 1]	&	0.0\\
+I	&	\url{(W{8})*S(W{6})*W{2}S}	&	[0, 2]	&	0.0\\
+H	&	\url{(W{8})*S(W{6})*W{3}S}	&	[0, 3]	&	0.0\\
+F	&	\url{(W{8})*S(W{6})*W{4}S}	&	[0, 4]	&	0.0\\
+B	&	\url{(W{8})*S(W{6})*W{5}S}	&	[0, 5]	&	0.0\\
+E	&	\url{(W{8})*W{1}S(W{6})*S}	&	[1, 0]	&	0.0\\
+O	&	\url{(W{8})*W{1}S(W{6})*W{1}S}	&	[1, 1]	&	0.0\\
+R	&	\url{(W{8})*W{1}S(W{6})*W{2}S}	&	[1, 2]	&	0.0\\
+C	&	\url{(W{8})*W{1}S(W{6})*W{3}S}	&	[1, 3]	&	0.0\\
+P	&	\url{(W{8})*W{1}S(W{6})*W{4}S}	&	[1, 4]	&	0.0\\
+Z	&	\url{(W{8})*W{1}S(W{6})*W{5}S}	&	[1, 5]	&	0.0\\
+A	&	\url{(W{8})*W{2}S(W{6})*S}	&	[2, 0]	&	0.0\\
+S	&	\url{(W{8})*W{2}S(W{6})*W{1}S}	&	[2, 1]	&	0.0\\
+U	&	\url{(W{8})*W{2}S(W{6})*W{2}S}	&	[2, 2]	&	0.0\\
+G	&	\url{(W{8})*W{2}S(W{6})*W{3}S}	&	[2, 3]	&	0.0\\
+Q	&	\url{(W{8})*W{2}S(W{6})*W{4}S}	&	[2, 4]	&	0.0\\
+?`	&	\url{(W{8})*W{2}S(W{6})*W{5}S}	&	[2, 5]	&	0.0\\
+N	&	\url{(W{8})*W{3}S(W{6})*S}	&	[3, 0]	&	0.0\\
+D	&	\url{(W{8})*W{3}S(W{6})*W{1}S}	&	[3, 1]	&	0.0\\
+Y	&	\url{(W{8})*W{3}S(W{6})*W{2}S}	&	[3, 2]	&	0.0\\
+J	&	\url{(W{8})*W{3}S(W{6})*W{3}S}	&	[3, 3]	&	0.0\\
+,	&	\url{(W{8})*W{3}S(W{6})*W{4}S}	&	[3, 4]	&	0.0\\
+0	&	\url{(W{8})*W{3}S(W{6})*W{5}S}	&	[3, 5]	&	0.0\\
+L	&	\url{(W{8})*W{4}S(W{6})*S}	&	[4, 0]	&	0.0\\
+W	&	\url{(W{8})*W{4}S(W{6})*W{1}S}	&	[4, 1]	&	0.0\\
+X	&	\url{(W{8})*W{4}S(W{6})*W{2}S}	&	[4, 2]	&	0.0\\
+.	&	\url{(W{8})*W{4}S(W{6})*W{3}S}	&	[4, 3]	&	0.0\\
+1	&	\url{(W{8})*W{4}S(W{6})*W{4}S}	&	[4, 4]	&	0.0\\
+2	&	\url{(W{8})*W{4}S(W{6})*W{5}S}	&	[4, 5]	&	0.0\\
+M	&	\url{(W{8})*W{5}S(W{6})*S}	&	[5, 0]	&	0.0\\
+K	&	\url{(W{8})*W{5}S(W{6})*W{1}S}	&	[5, 1]	&	0.0\\
+?	&	\url{(W{8})*W{5}S(W{6})*W{2}S}	&	[5, 2]	&	0.0\\
+3	&	\url{(W{8})*W{5}S(W{6})*W{3}S}	&	[5, 3]	&	0.0\\
+4	&	\url{(W{8})*W{5}S(W{6})*W{4}S}	&	[5, 4]	&	0.0\\
+5	&	\url{(W{8})*W{5}S(W{6})*W{5}S}	&	[5, 5]	&	0.0\\
+V	&	\url{(W{8})*W{6}S(W{6})*S}	&	[6, 0]	&	0.0\\
+'	&	\url{(W{8})*W{6}S(W{6})*W{1}S}	&	[6, 1]	&	0.0\\
+6	&	\url{(W{8})*W{6}S(W{6})*W{2}S}	&	[6, 2]	&	0.0\\
+7	&	\url{(W{8})*W{6}S(W{6})*W{3}S}	&	[6, 3]	&	0.0\\
+8	&	\url{(W{8})*W{6}S(W{6})*W{4}S}	&	[6, 4]	&	0.0\\
+9	&	\url{(W{8})*W{6}S(W{6})*W{5}S}	&	[6, 5]	&	0.0\\
+$\P$	&	\url{(W{8})*W{7}S}	&	[7]	&	0.0\\
+\end{tabular}\end{document}

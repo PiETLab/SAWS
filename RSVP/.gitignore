@@ -1,0 +1,12 @@
+/EBook.class
+/EbookChunkedTextFile.class
+/EbookChunker.class
+/EbookTextFile.class
+/LexicalToken.class
+/RSVPChunkedSentence.class
+/RSVPLauncher.class
+/RSVPShrinkWordToDisplayState.class
+/ReadOnlyTextFile.class
+/TickerTapeController.class
+/TwoLevelTokenizer.class
+/Word.class

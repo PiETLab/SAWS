@@ -1,0 +1,702 @@
+10
+
+dir
+7
+https://svn.cse.yorku.ca/repos/mb/Prj-AssistiveTechnology
+https://svn.cse.yorku.ca/repos/mb
+
+
+
+2009-09-16T17:46:16.434425Z
+7
+mb
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+ff5ada9f-ddf1-41f3-9e3e-289680df89f5
+
+.classpath
+file
+8
+
+
+
+2009-06-09T18:19:39.000000Z
+994cbcf3c292513257717d1504c6e389
+2009-09-16T17:49:03.794552Z
+8
+mb
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+298
+
+.project
+file
+8
+
+
+
+2009-05-22T21:49:02.000000Z
+24e6bfb5b1b241173c26f6143741647e
+2009-09-16T17:49:03.794552Z
+8
+mb
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+382
+
+IndirectSelectionFacility
+dir
+
+IndirectSelectionFacilityCommands
+dir
+
+IntegrationClasses
+dir
+
+JavaVoicePkg
+dir
+
+Logs
+dir
+
+PredictionModellingISF
+dir
+
+PredictiveModellingRSVP
+dir
+
+Prj-VOCA-Oct14
+dir
+
+RSVP
+dir
+
+RSVPStates
+dir
+
+SoftwareDeployment
+dir
+
+UML.graffle
+file
+8
+
+
+
+2009-05-22T21:49:32.000000Z
+266f7872ebcaf079b10ca792c8dd1e08
+2009-09-16T17:49:03.794552Z
+8
+mb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+45176
+
+UML.pdf
+file
+8
+
+
+
+2009-05-22T21:49:32.000000Z
+1b28930239bea841d040f99632c006df
+2009-09-16T17:49:03.794552Z
+8
+mb
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+34832
+
+Untitled.graffle
+file
+8
+
+
+
+2009-05-22T21:49:33.000000Z
+111bb041d231c3db9ac84eb928d66782
+2009-09-16T17:49:03.794552Z
+8
+mb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+25842
+
+UtilityClassesISF
+dir
+
+aTests
+dir
+
+abstractOnScreenIndirectSelectionKeyboard
+dir
+
+actionScheme
+dir
+
+addressBook
+dir
+
+appsTestingISF
+dir
+
+basicGuiParameters
+dir
+
+buttonLayouts
+dir
+
+clock
+dir
+
+com
+dir
+
+coreIndirectSelectionFacility
+dir
+
+coreMemoApplication
+dir
+
+coreRSVP
+dir
+
+customGUIComponentsISF
+dir
+
+displayScheme
+dir
+
+docs-notJavadoc
+dir
+
+driverApplications_DemosISF
+dir
+
+driverApplications_ISF
+dir
+
+driverApps_MemoFillerApps
+dir
+
+driverApps_ParameterSelection
+dir
+
+driverApps_RSVP
+dir
+
+eBooks
+dir
+
+en_US.xml
+file
+8
+
+
+
+2009-05-22T21:49:20.000000Z
+2b0d567a9c70628395b36f164efec1a2
+2009-09-16T17:49:03.794552Z
+8
+mb
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+31699
+
+encodingAlphabetsISF
+dir
+
+encodingTrees
+dir
+
+experimentHelper
+dir
+
+gnuPlot
+dir
+
+graph
+dir
+
+hyphenation.dtd
+file
+8
+
+
+
+2009-05-22T21:49:22.000000Z
+733a359d6361119714db14daaad51ea2
+2009-09-16T17:49:03.794552Z
+8
+mb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2950
+
+images
+dir
+
+indirectTextEntrySystemVariants
+dir
+
+inputCorpora
+dir
+
+invSetUpAssist
+dir
+
+invocationParametersISF
+dir
+
+invocationParametersRSVP
+dir
+
+jUnitTestsISF
+dir
+
+jUnitTestsRSVP
+dir
+
+keyboardLayouts
+dir
+
+logger.dtd
+file
+8
+
+
+
+2009-05-22T21:49:25.000000Z
+099a2e0beed9a33cea0917ac44bb8766
+2009-09-16T17:49:03.794552Z
+8
+mb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2383
+
+manualEncodingTrees
+dir
+
+memoApplicationCommands
+dir
+
+memoControl
+dir
+
+memoField
+dir
+
+mylog.txt
+file
+8
+
+
+
+2009-05-22T21:49:26.000000Z
+281dd433b327526ceae3e5302d196886
+2009-09-16T17:49:03.794552Z
+8
+mb
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3980
+
+obj
+dir
+
+parameterConfiguration
+dir
+
+parameterSelectionWidgetsAndControllers
+dir
+
+parameters-test.txt
+file
+8
+
+
+
+2009-05-22T21:49:27.000000Z
+fb7ed943d37ae696f5a2d107f2866d1a
+2009-09-16T17:49:03.794552Z
+8
+mb
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+170
+
+probabilityDistributionsVOCA
+dir
+
+script-generate-jar-compose-version2.xml
+file
+8
+
+
+
+2009-06-01T06:07:41.000000Z
+74247eb5603468259317a993b98f2532
+2009-09-16T17:49:03.794552Z
+8
+mb
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+782
+
+script-generate-jar-game-version2.xml
+file
+8
+
+
+
+2009-06-01T06:04:05.000000Z
+6a8e7ae8c8e050c7dc0f39eb2b4f2b34
+2009-09-16T17:49:03.794552Z
+8
+mb
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+784
+
+script-memo.xml
+file
+8
+
+
+
+2009-06-09T18:25:06.000000Z
+80d82f78ccb20ae03e924c603035ba4b
+2009-09-16T17:49:03.794552Z
+8
+mb
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+750
+
+script.xml
+file
+8
+
+
+
+2009-06-05T15:28:00.000000Z
+9310bebd7f66737ea89d90a44011ab30
+2009-09-16T17:49:03.794552Z
+8
+mb
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+758
+
+simulatedUser
+dir
+
+sourceSymbolSet
+dir
+
+subjectLine
+dir
+
+test
+dir
+
+testingCorpora
+dir
+
+tex
+dir
+
+texRSVP
+dir
+
+toAnalyze
+dir
+
+treeDataStructure
+dir
+
+unequalLetterCostCode
+dir
+
+userComposedMemo
+dir
+

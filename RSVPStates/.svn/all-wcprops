@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/RSVPStates
+END
+RSVPUnpausedState.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/RSVPStates/RSVPUnpausedState.java
+END
+RSVPPausedState.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/RSVPStates/RSVPPausedState.java
+END
+RSVPSubUnitDisplayState.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/RSVPStates/RSVPSubUnitDisplayState.java
+END
+RSVPState.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/RSVPStates/RSVPState.java
+END
+RSVPWholeMultiWordDisplayState.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/RSVPStates/RSVPWholeMultiWordDisplayState.java
+END
+RSVPWholeWordDisplayState.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/RSVPStates/RSVPWholeWordDisplayState.java
+END
+RSVPEndOfTextReachedState.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/RSVPStates/RSVPEndOfTextReachedState.java
+END

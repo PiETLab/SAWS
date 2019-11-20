@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/RSVP
+END
+TwoLevelTokenizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/RSVP/TwoLevelTokenizer.java
+END
+EBook.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/RSVP/EBook.java
+END
+EbookChunker.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/RSVP/EbookChunker.java
+END
+RSVPLauncher.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/RSVP/RSVPLauncher.java
+END
+ReadOnlyTextFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/RSVP/ReadOnlyTextFile.java
+END
+Word.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/RSVP/Word.java
+END
+RSVPShrinkWordToDisplayState.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/RSVP/RSVPShrinkWordToDisplayState.java
+END
+TickerTapeController.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/RSVP/TickerTapeController.java
+END
+EbookChunkedTextFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/RSVP/EbookChunkedTextFile.java
+END
+EbookTextFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/RSVP/EbookTextFile.java
+END
+LexicalToken.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/RSVP/LexicalToken.java
+END
+RSVPChunkedSentence.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/RSVP/RSVPChunkedSentence.java
+END

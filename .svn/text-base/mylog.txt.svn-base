@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="MacRoman" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2006-03-24T17:11:08</date>
+  <millis>1143238268041</millis>
+  <sequence>0</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>INFO</level>
+  <class>driverApplications.VoiceOutputCommunicationAidApplication</class>
+  <method>main</method>
+  <thread>10</thread>
+  <message>keyboard variant used:keyboardVariants.RowColUnigram</message>
+</record>
+<record>
+  <date>2006-03-24T17:11:20</date>
+  <millis>1143238280423</millis>
+  <sequence>1</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>INFO</level>
+  <class>VOCACommands.ContainmentHierarchySelectionCommand</class>
+  <method>execute</method>
+  <thread>11</thread>
+  <message>SELECT: INTERNAL</message>
+</record>
+<record>
+  <date>2006-03-24T17:11:20</date>
+  <millis>1143238280455</millis>
+  <sequence>2</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>INFO</level>
+  <class>VOCACommands.ContainmentHierarchySelectionCommand</class>
+  <method>execute</method>
+  <thread>11</thread>
+  <message>	 in Fokus (msec): 	578</message>
+</record>
+<record>
+  <date>2006-03-24T17:11:22</date>
+  <millis>1143238282522</millis>
+  <sequence>3</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>INFO</level>
+  <class>VOCACommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>11</thread>
+  <message>	 in Fokus (msec): 	1063</message>
+</record>
+<record>
+  <date>2006-03-24T17:11:23</date>
+  <millis>1143238283458</millis>
+  <sequence>4</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>INFO</level>
+  <class>VOCACommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>11</thread>
+  <message>	 in Fokus (msec): 	919</message>
+</record>
+<record>
+  <date>2006-03-24T17:11:24</date>
+  <millis>1143238284459</millis>
+  <sequence>5</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>INFO</level>
+  <class>VOCACommands.AdvanceFokusCommand</class>
+  <method>execute</method>
+  <thread>11</thread>
+  <message>	 in Fokus (msec): 	998</message>
+</record>
+<record>
+  <date>2006-03-24T17:11:24</date>
+  <millis>1143238284730</millis>
+  <sequence>6</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>INFO</level>
+  <class>VOCACommands.ContainmentHierarchySelectionCommand</class>
+  <method>execute</method>
+  <thread>11</thread>
+  <message>SELECT: LEAF</message>
+</record>
+<record>
+  <date>2006-03-24T17:11:24</date>
+  <millis>1143238284731</millis>
+  <sequence>7</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>INFO</level>
+  <class>VOCACommands.ContainmentHierarchySelectionCommand</class>
+  <method>execute</method>
+  <thread>11</thread>
+  <message>	 in Fokus (msec): 	268</message>
+</record>
+<record>
+  <date>2006-03-24T17:11:26</date>
+  <millis>1143238286035</millis>
+  <sequence>8</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>INFO</level>
+  <class>VOCACommands.ContainmentHierarchySelectionCommand</class>
+  <method>execute</method>
+  <thread>11</thread>
+  <message>SELECT: INTERNAL</message>
+</record>
+<record>
+  <date>2006-03-24T17:11:26</date>
+  <millis>1143238286037</millis>
+  <sequence>9</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>INFO</level>
+  <class>VOCACommands.ContainmentHierarchySelectionCommand</class>
+  <method>execute</method>
+  <thread>11</thread>
+  <message>	 in Fokus (msec): 	289</message>
+</record>
+<record>
+  <date>2006-03-24T17:11:27</date>
+  <millis>1143238287385</millis>
+  <sequence>10</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>INFO</level>
+  <class>VOCACommands.ContainmentHierarchySelectionCommand</class>
+  <method>execute</method>
+  <thread>11</thread>
+  <message>SELECT: LEAF</message>
+</record>
+<record>
+  <date>2006-03-24T17:11:27</date>
+  <millis>1143238287390</millis>
+  <sequence>11</sequence>
+  <logger>voca.vocaApp</logger>
+  <level>INFO</level>
+  <class>VOCACommands.ContainmentHierarchySelectionCommand</class>
+  <method>execute</method>
+  <thread>11</thread>
+  <message>	 in Fokus (msec): 	339</message>
+</record>
+</log>

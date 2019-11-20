@@ -1,0 +1,47 @@
+\documentclass[12pt]{article}
+\usepackage{palatino}\usepackage{fullpage}
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{epic}
+\usepackage{ecltree}
+\renewcommand{\ttdefault}{cmtt}
+\begin{document}
+\noindent \url{EncodingTreeFromMorseCode}
+
+\input{ecltree-EncodingTreeFromMorseCode.LettersPeriodCommaSpace.tex}
+
+\newpage
+\noindent
+\noindent Mean Cost: 6.347479694330727\\
+\begin{tabular}{l l l l}
+Source Symbol	&	Cost\\
+H $\rightarrow$ SSSSS	&	7.0	&	0.04224191589182259\\
+V $\rightarrow$ SSSW{$^{1}$}SS	&	8.0	&	0.007360333829635741\\
+S $\rightarrow$ SSSW{$^{2}$}S	&	6.0	&	0.04856220254987936\\
+F $\rightarrow$ SSW{$^{1}$}SSS	&	8.0	&	0.023121048660486154\\
+U $\rightarrow$ SSW{$^{1}$}SW{$^{1}$}S	&	7.0	&	0.01992090351716626\\
+I $\rightarrow$ SSW{$^{2}$}S	&	5.0	&	0.05016227512153931\\
+L $\rightarrow$ SW{$^{1}$}SSSS	&	8.0	&	0.02712123008963607\\
+. $\rightarrow$ SW{$^{1}$}SSW{$^{1}$}SSSS	&	12.0	&	0.020000907145749272\\
+R $\rightarrow$ SW{$^{1}$}SSW{$^{2}$}S	&	7.0	&	0.054162456550689124\\
+P $\rightarrow$ SW{$^{1}$}SW{$^{1}$}SSS	&	9.0	&	0.015920722088016447\\
+J $\rightarrow$ SW{$^{1}$}SW{$^{1}$}SW{$^{1}$}SS	&	10.0	&	0.00104004717157896\\
+W $\rightarrow$ SW{$^{1}$}SW{$^{1}$}SW{$^{2}$}S	&	8.0	&	0.011920540658866632\\
+A $\rightarrow$ SW{$^{1}$}SW{$^{2}$}S	&	6.0	&	0.06848310606704563\\
+E $\rightarrow$ SW{$^{2}$}S	&	4.0	&	0.10432473167222804\\
+B $\rightarrow$ W{$^{1}$}SSSSS	&	8.0	&	0.011120504373036608\\
+X $\rightarrow$ W{$^{1}$}SSSW{$^{1}$}SS	&	9.0	&	0.001360061685910949\\
+D $\rightarrow$ W{$^{1}$}SSSW{$^{2}$}S	&	7.0	&	0.030241371604372947\\
+C $\rightarrow$ W{$^{1}$}SSW{$^{1}$}SSS	&	9.0	&	0.02232101237465623\\
+Y $\rightarrow$ W{$^{1}$}SSW{$^{1}$}SW{$^{1}$}SS	&	10.0	&	0.015920722088016447\\
+K $\rightarrow$ W{$^{1}$}SSW{$^{1}$}SW{$^{2}$}S	&	8.0	&	0.003360152400485886\\
+N $\rightarrow$ W{$^{1}$}SSW{$^{2}$}S	&	6.0	&	0.05656256540817909\\
+, $\rightarrow$ W{$^{1}$}SW{$^{1}$}SSSSSS	&	13.0	&	0.020000907145749272\\
+Z $\rightarrow$ W{$^{1}$}SW{$^{1}$}SSSW{$^{1}$}S	&	9.0	&	5.946717411988582E-4\\
+Q $\rightarrow$ W{$^{1}$}SW{$^{1}$}SSW{$^{1}$}SS	&	10.0	&	9.600435429959666E-4\\
+G $\rightarrow$ W{$^{1}$}SW{$^{1}$}SSW{$^{2}$}S	&	8.0	&	0.015920722088016447\\
+O $\rightarrow$ W{$^{1}$}SW{$^{1}$}SW{$^{1}$}SS	&	9.0	&	0.0637628919806488\\
+M $\rightarrow$ W{$^{1}$}SW{$^{1}$}SW{$^{2}$}S	&	7.0	&	0.01992090351716626\\
+T $\rightarrow$ W{$^{1}$}SW{$^{2}$}S	&	5.0	&	0.08360379186923216\\
+$\sqcup$ $\rightarrow$ W{$^{2}$}S	&	4.0	&	0.1600072571659946\\
+\end{tabular}\end{document}

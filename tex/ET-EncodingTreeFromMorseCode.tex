@@ -1,0 +1,145 @@
+\documentclass[12pt]{article}
+\usepackage{palatino}\usepackage{fullpage}
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{epic}
+\usepackage{ecltree}
+\renewcommand{\ttdefault}{cmtt}
+\begin{document}
+\noindent \url{EncodingTreeFromMorseCode}
+
+%% CONTAINMENT HIERARCHY %%
+\noindent\begin{tt}
+\begin{small}
+\begin{bundle}{}
+\chunk[0]{\begin{bundle}{HVSFUIL.RPJWAEBXDCYKN,ZQGOMT$\sqcup$}
+ \chunk[1]{\begin{bundle}{HVSFUIL.RPJWAE}
+ \chunk[2]{\begin{bundle}{HVSFUI}
+ \chunk[3]{\begin{bundle}{HVS}
+ \chunk[4]{\begin{bundle}{H}
+ \chunk[7]{H}
+\end{bundle}}
+ \chunk[5]{\begin{bundle}{V}
+ \chunk[8]{V}
+\end{bundle}}
+ \chunk[6]{S}
+\end{bundle}}
+ \chunk[4]{\begin{bundle}{FU}
+ \chunk[5]{\begin{bundle}{F}
+ \chunk[8]{F}
+\end{bundle}}
+ \chunk[7]{U}
+\end{bundle}}
+ \chunk[5]{I}
+\end{bundle}}
+ \chunk[3]{\begin{bundle}{L.RPJWA}
+ \chunk[4]{\begin{bundle}{L.R}
+ \chunk[5]{\begin{bundle}{L}
+ \chunk[8]{L}
+\end{bundle}}
+ \chunk[6]{\begin{bundle}{.}
+ \chunk[7]{\begin{bundle}{.}
+ \chunk[9]{\begin{bundle}{.}
+ \chunk[12]{.}
+\end{bundle}}
+\end{bundle}}
+\end{bundle}}
+ \chunk[7]{R}
+\end{bundle}}
+ \chunk[5]{\begin{bundle}{PJW}
+ \chunk[6]{\begin{bundle}{P}
+ \chunk[9]{P}
+\end{bundle}}
+ \chunk[7]{\begin{bundle}{J}
+ \chunk[10]{J}
+\end{bundle}}
+ \chunk[8]{W}
+\end{bundle}}
+ \chunk[6]{A}
+\end{bundle}}
+ \chunk[4]{E}
+\end{bundle}}
+ \chunk[2]{\begin{bundle}{BXDCYKN,ZQGOMT}
+ \chunk[3]{\begin{bundle}{BXDCYKN}
+ \chunk[4]{\begin{bundle}{BXD}
+ \chunk[5]{\begin{bundle}{B}
+ \chunk[8]{B}
+\end{bundle}}
+ \chunk[6]{\begin{bundle}{X}
+ \chunk[9]{X}
+\end{bundle}}
+ \chunk[7]{D}
+\end{bundle}}
+ \chunk[5]{\begin{bundle}{CYK}
+ \chunk[6]{\begin{bundle}{C}
+ \chunk[9]{C}
+\end{bundle}}
+ \chunk[7]{\begin{bundle}{Y}
+ \chunk[10]{Y}
+\end{bundle}}
+ \chunk[8]{K}
+\end{bundle}}
+ \chunk[6]{N}
+\end{bundle}}
+ \chunk[4]{\begin{bundle}{,ZQGOM}
+ \chunk[5]{\begin{bundle}{,ZQG}
+ \chunk[6]{\begin{bundle}{,Z}
+ \chunk[8]{\begin{bundle}{,}
+ \chunk[10]{\begin{bundle}{,}
+ \chunk[13]{,}
+\end{bundle}}
+\end{bundle}}
+ \chunk[9]{Z}
+\end{bundle}}
+ \chunk[7]{\begin{bundle}{Q}
+ \chunk[10]{Q}
+\end{bundle}}
+ \chunk[8]{G}
+\end{bundle}}
+ \chunk[6]{\begin{bundle}{O}
+ \chunk[9]{O}
+\end{bundle}}
+ \chunk[7]{M}
+\end{bundle}}
+ \chunk[5]{T}
+\end{bundle}}
+ \chunk[4]{$\sqcup$}
+\end{bundle}}
+\end{bundle}
+\end{small}
+\end{tt}
+\newpage\newpage
+\noindent
+\noindent Mean Cost: 6.345901376881202\\
+\begin{tabular}{l l l l}
+Source Symbol	&	Cost\\
+H $\rightarrow$ SSSSS	&	7.0\\
+V $\rightarrow$ SSSW{$^{1}$}SS	&	8.0\\
+S $\rightarrow$ SSSW{$^{2}$}S	&	6.0\\
+F $\rightarrow$ SSW{$^{1}$}SSS	&	8.0\\
+U $\rightarrow$ SSW{$^{1}$}SW{$^{1}$}S	&	7.0\\
+I $\rightarrow$ SSW{$^{2}$}S	&	5.0\\
+L $\rightarrow$ SW{$^{1}$}SSSS	&	8.0\\
+. $\rightarrow$ SW{$^{1}$}SSW{$^{1}$}SSSS	&	12.0\\
+R $\rightarrow$ SW{$^{1}$}SSW{$^{2}$}S	&	7.0\\
+P $\rightarrow$ SW{$^{1}$}SW{$^{1}$}SSS	&	9.0\\
+J $\rightarrow$ SW{$^{1}$}SW{$^{1}$}SW{$^{1}$}SS	&	10.0\\
+W $\rightarrow$ SW{$^{1}$}SW{$^{1}$}SW{$^{2}$}S	&	8.0\\
+A $\rightarrow$ SW{$^{1}$}SW{$^{2}$}S	&	6.0\\
+E $\rightarrow$ SW{$^{2}$}S	&	4.0\\
+B $\rightarrow$ W{$^{1}$}SSSSS	&	8.0\\
+X $\rightarrow$ W{$^{1}$}SSSW{$^{1}$}SS	&	9.0\\
+D $\rightarrow$ W{$^{1}$}SSSW{$^{2}$}S	&	7.0\\
+C $\rightarrow$ W{$^{1}$}SSW{$^{1}$}SSS	&	9.0\\
+Y $\rightarrow$ W{$^{1}$}SSW{$^{1}$}SW{$^{1}$}SS	&	10.0\\
+K $\rightarrow$ W{$^{1}$}SSW{$^{1}$}SW{$^{2}$}S	&	8.0\\
+N $\rightarrow$ W{$^{1}$}SSW{$^{2}$}S	&	6.0\\
+, $\rightarrow$ W{$^{1}$}SW{$^{1}$}SSSSSS	&	13.0\\
+Z $\rightarrow$ W{$^{1}$}SW{$^{1}$}SSSW{$^{1}$}S	&	9.0\\
+Q $\rightarrow$ W{$^{1}$}SW{$^{1}$}SSW{$^{1}$}SS	&	10.0\\
+G $\rightarrow$ W{$^{1}$}SW{$^{1}$}SSW{$^{2}$}S	&	8.0\\
+O $\rightarrow$ W{$^{1}$}SW{$^{1}$}SW{$^{1}$}SS	&	9.0\\
+M $\rightarrow$ W{$^{1}$}SW{$^{1}$}SW{$^{2}$}S	&	7.0\\
+T $\rightarrow$ W{$^{1}$}SW{$^{2}$}S	&	5.0\\
+$\sqcup$ $\rightarrow$ W{$^{2}$}S	&	4.0\\
+\end{tabular}\end{document}

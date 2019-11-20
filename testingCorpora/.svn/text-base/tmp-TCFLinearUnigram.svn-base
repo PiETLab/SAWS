@@ -1,0 +1,9 @@
+Created file tmp-TCFLinearUnigram
+(1) GlossID
+(2)num(words)
+(3)num(chars)
+(4)num(dec)
+(5)num(dec|wi)
+(6)num(dec|cj)
+(1)	(2)	(3)	(4)	(5)	(6)
+001	1	1	4	w=	c=A:4

@@ -1,0 +1,240 @@
+\documentclass[12pt]{article}
+\usepackage{palatino}\usepackage{fullpage}
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{epic}
+\usepackage{ecltree}
+\renewcommand{\ttdefault}{cmtt}
+\begin{document}
+\noindent \url{HuffmanUnequalCH}
+
+\noindent \url{[0.148756396525051, 0.096989170534333, 0.0777252171843389, 0.0636677377127216, 0.0592794240152326, 0.0525853861716054, 0.0503540402237296, 0.0466351303106034, 0.0451475663453529, 0.0392716886826134, 0.0281149589432346, 0.0256456027609187, 0.0252142092109961, 0.0214952992978698, 0.0207515173152446, 0.0185945495656313, 0.0185945495656313, 0.0185945495656313, 0.0185945495656313, 0.0185201713673688, 0.0185201713673688, 0.0148012614542425, 0.0148012614542425, 0.0148012614542425, 0.0110823515411163, 0.010338569558491, 0.00684279424015233, 0.00312388432702606, 0.00126442937046293, 9.66916577412829E-4, 8.92538379150303E-4, 7.43781982625253E-4, 7.43781982625253E-4, 7.43781982625253E-4, 7.43781982625253E-4, 7.43781982625253E-4, 7.43781982625253E-4, 7.43781982625253E-4, 7.43781982625253E-4, 7.43781982625253E-4, 7.43781982625253E-4, 5.95025586100202E-4, 0.0]}
+
+\newpage
+%% CONTAINMENT HIERARCHY %%
+\noindent\begin{tt}
+\begin{small}
+\begin{bundle}{}
+\chunk[]{\begin{bundle}{J7Q081923Z45?`VX6BKLFGCP',Y.?WIMSHUADON$\P$ERT$\sqcup$}
+ \chunk[]{\begin{bundle}{J7Q081923Z45?`VX6BKLFGCP',Y.?WIMSHUADON$\P$}
+ \chunk[]{\begin{bundle}{J7Q081923Z45?`VX6BKLFGCP',Y.?WIMSHU}
+ \chunk[]{\begin{bundle}{J7Q081923Z45?`VX6BKLFGCP',Y.?W}
+ \chunk[]{\begin{bundle}{J7Q081923Z45?`VX6BKLFGCP'}
+ \chunk[]{\begin{bundle}{J7Q081923Z45?`VX6BKLFG}
+ \chunk[]{\begin{bundle}{J7Q081923Z45?`VX6BKL}
+ \chunk[]{\begin{bundle}{J7Q081923Z45?`VX6BK}
+ \chunk[]{\begin{bundle}{J7Q081923Z45?`VX6}
+ \chunk[]{\begin{bundle}{J7Q081923Z45?`}
+ \chunk[]{\begin{bundle}{J7Q08192}
+ \chunk[]{\begin{bundle}{J7Q08}
+ \chunk[]{\begin{bundle}{J7Q}
+ \chunk[]{\begin{bundle}{J7}
+ \chunk[]{J}
+ \chunk[]{7}
+\end{bundle}}
+ \chunk[]{Q}
+\end{bundle}}
+ \chunk[]{\begin{bundle}{08}
+ \chunk[]{0}
+ \chunk[]{8}
+\end{bundle}}
+\end{bundle}}
+ \chunk[]{\begin{bundle}{192}
+ \chunk[]{\begin{bundle}{19}
+ \chunk[]{1}
+ \chunk[]{9}
+\end{bundle}}
+ \chunk[]{2}
+\end{bundle}}
+\end{bundle}}
+ \chunk[]{\begin{bundle}{3Z45?`}
+ \chunk[]{\begin{bundle}{3Z4}
+ \chunk[]{\begin{bundle}{3Z}
+ \chunk[]{3}
+ \chunk[]{Z}
+\end{bundle}}
+ \chunk[]{4}
+\end{bundle}}
+ \chunk[]{\begin{bundle}{5?`}
+ \chunk[]{5}
+ \chunk[]{?`}
+\end{bundle}}
+\end{bundle}}
+\end{bundle}}
+ \chunk[]{\begin{bundle}{VX6}
+ \chunk[]{V}
+ \chunk[]{\begin{bundle}{X6}
+ \chunk[]{X}
+ \chunk[]{6}
+\end{bundle}}
+\end{bundle}}
+\end{bundle}}
+ \chunk[]{\begin{bundle}{BK}
+ \chunk[]{B}
+ \chunk[]{K}
+\end{bundle}}
+\end{bundle}}
+ \chunk[]{L}
+\end{bundle}}
+ \chunk[]{\begin{bundle}{FG}
+ \chunk[]{F}
+ \chunk[]{G}
+\end{bundle}}
+\end{bundle}}
+ \chunk[]{\begin{bundle}{CP'}
+ \chunk[]{\begin{bundle}{CP}
+ \chunk[]{C}
+ \chunk[]{P}
+\end{bundle}}
+ \chunk[]{'}
+\end{bundle}}
+\end{bundle}}
+ \chunk[]{\begin{bundle}{,Y.?W}
+ \chunk[]{\begin{bundle}{,Y.}
+ \chunk[]{\begin{bundle}{,Y}
+ \chunk[]{,}
+ \chunk[]{Y}
+\end{bundle}}
+ \chunk[]{.}
+\end{bundle}}
+ \chunk[]{\begin{bundle}{?W}
+ \chunk[]{?}
+ \chunk[]{W}
+\end{bundle}}
+\end{bundle}}
+\end{bundle}}
+ \chunk[]{\begin{bundle}{IMSHU}
+ \chunk[]{\begin{bundle}{IMS}
+ \chunk[]{\begin{bundle}{IM}
+ \chunk[]{I}
+ \chunk[]{M}
+\end{bundle}}
+ \chunk[]{S}
+\end{bundle}}
+ \chunk[]{\begin{bundle}{HU}
+ \chunk[]{H}
+ \chunk[]{U}
+\end{bundle}}
+\end{bundle}}
+\end{bundle}}
+ \chunk[]{\begin{bundle}{ADON$\P$}
+ \chunk[]{\begin{bundle}{ADO}
+ \chunk[]{\begin{bundle}{AD}
+ \chunk[]{A}
+ \chunk[]{D}
+\end{bundle}}
+ \chunk[]{O}
+\end{bundle}}
+ \chunk[]{\begin{bundle}{N$\P$}
+ \chunk[]{N}
+ \chunk[]{$\P$}
+\end{bundle}}
+\end{bundle}}
+\end{bundle}}
+ \chunk[]{\begin{bundle}{ERT$\sqcup$}
+ \chunk[]{\begin{bundle}{ERT}
+ \chunk[]{\begin{bundle}{ER}
+ \chunk[]{E}
+ \chunk[]{R}
+\end{bundle}}
+ \chunk[]{T}
+\end{bundle}}
+ \chunk[]{$\sqcup$}
+\end{bundle}}
+\end{bundle}}
+\end{bundle}
+\end{small}
+\end{tt}
+\newpage%% PROB DIST %%
+\begin{tabular}{l l}0.148756396525051	&	0.148756396525051\\
+0.096989170534333	&	0.096989170534333\\
+0.0777252171843389	&	0.0777252171843389\\
+0.0636677377127216	&	0.0636677377127216\\
+0.0592794240152326	&	0.0592794240152326\\
+0.0525853861716054	&	0.0525853861716054\\
+0.0503540402237296	&	0.0503540402237296\\
+0.0466351303106034	&	0.0466351303106034\\
+0.0451475663453529	&	0.0451475663453529\\
+0.0392716886826134	&	0.0392716886826134\\
+0.0281149589432346	&	0.0281149589432346\\
+0.0256456027609187	&	0.0256456027609187\\
+0.0252142092109961	&	0.0252142092109961\\
+0.0214952992978698	&	0.0214952992978698\\
+0.0207515173152446	&	0.0207515173152446\\
+0.0185945495656313	&	0.0185945495656313\\
+0.0185945495656313	&	0.0185945495656313\\
+0.0185945495656313	&	0.0185945495656313\\
+0.0185945495656313	&	0.0185945495656313\\
+0.0185201713673688	&	0.0185201713673688\\
+0.0185201713673688	&	0.0185201713673688\\
+0.0148012614542425	&	0.0148012614542425\\
+0.0148012614542425	&	0.0148012614542425\\
+0.0148012614542425	&	0.0148012614542425\\
+0.0110823515411163	&	0.0110823515411163\\
+0.010338569558491	&	0.010338569558491\\
+0.00684279424015233	&	0.00684279424015233\\
+0.00312388432702606	&	0.00312388432702606\\
+0.00126442937046293	&	0.00126442937046293\\
+9.66916577412829E-4	&	9.66916577412829E-4\\
+8.92538379150303E-4	&	8.92538379150303E-4\\
+7.43781982625253E-4	&	7.43781982625253E-4\\
+7.43781982625253E-4	&	7.43781982625253E-4\\
+7.43781982625253E-4	&	7.43781982625253E-4\\
+7.43781982625253E-4	&	7.43781982625253E-4\\
+7.43781982625253E-4	&	7.43781982625253E-4\\
+7.43781982625253E-4	&	7.43781982625253E-4\\
+7.43781982625253E-4	&	7.43781982625253E-4\\
+7.43781982625253E-4	&	7.43781982625253E-4\\
+7.43781982625253E-4	&	7.43781982625253E-4\\
+7.43781982625253E-4	&	7.43781982625253E-4\\
+5.95025586100202E-4	&	5.95025586100202E-4\\
+0.0	&	0.0\\
+\end{tabular}\newpage
+\noindent
+\noindent Mean Cost: 6.418808758776628\\
+\begin{tabular}{l l l l}
+Source Symbol	&	User Action Seq.	&	Encoding	&	Cost\\
+J	&	\url{tbd}	&	[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]	&	14.0\\
+7	&	\url{tbd}	&	[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]	&	15.0\\
+Q	&	\url{tbd}	&	[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]	&	14.0\\
+0	&	\url{tbd}	&	[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]	&	14.0\\
+8	&	\url{tbd}	&	[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1]	&	15.0\\
+1	&	\url{tbd}	&	[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]	&	14.0\\
+9	&	\url{tbd}	&	[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]	&	15.0\\
+2	&	\url{tbd}	&	[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1]	&	14.0\\
+3	&	\url{tbd}	&	[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]	&	14.0\\
+Z	&	\url{tbd}	&	[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1]	&	15.0\\
+4	&	\url{tbd}	&	[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]	&	14.0\\
+5	&	\url{tbd}	&	[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0]	&	14.0\\
+?`	&	\url{tbd}	&	[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1]	&	15.0\\
+V	&	\url{tbd}	&	[0, 0, 0, 0, 0, 0, 0, 0, 1, 0]	&	11.0\\
+X	&	\url{tbd}	&	[0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0]	&	13.0\\
+6	&	\url{tbd}	&	[0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1]	&	14.0\\
+B	&	\url{tbd}	&	[0, 0, 0, 0, 0, 0, 0, 1, 0]	&	10.0\\
+K	&	\url{tbd}	&	[0, 0, 0, 0, 0, 0, 0, 1, 1]	&	11.0\\
+L	&	\url{tbd}	&	[0, 0, 0, 0, 0, 0, 1]	&	8.0\\
+F	&	\url{tbd}	&	[0, 0, 0, 0, 0, 1, 0]	&	8.0\\
+G	&	\url{tbd}	&	[0, 0, 0, 0, 0, 1, 1]	&	9.0\\
+C	&	\url{tbd}	&	[0, 0, 0, 0, 1, 0, 0]	&	8.0\\
+P	&	\url{tbd}	&	[0, 0, 0, 0, 1, 0, 1]	&	9.0\\
+'	&	\url{tbd}	&	[0, 0, 0, 0, 1, 1]	&	8.0\\
+,	&	\url{tbd}	&	[0, 0, 0, 1, 0, 0, 0]	&	8.0\\
+Y	&	\url{tbd}	&	[0, 0, 0, 1, 0, 0, 1]	&	9.0\\
+.	&	\url{tbd}	&	[0, 0, 0, 1, 0, 1]	&	8.0\\
+?	&	\url{tbd}	&	[0, 0, 0, 1, 1, 0]	&	8.0\\
+W	&	\url{tbd}	&	[0, 0, 0, 1, 1, 1]	&	9.0\\
+I	&	\url{tbd}	&	[0, 0, 1, 0, 0, 0]	&	7.0\\
+M	&	\url{tbd}	&	[0, 0, 1, 0, 0, 1]	&	8.0\\
+S	&	\url{tbd}	&	[0, 0, 1, 0, 1]	&	7.0\\
+H	&	\url{tbd}	&	[0, 0, 1, 1, 0]	&	7.0\\
+U	&	\url{tbd}	&	[0, 0, 1, 1, 1]	&	8.0\\
+A	&	\url{tbd}	&	[0, 1, 0, 0, 0]	&	6.0\\
+D	&	\url{tbd}	&	[0, 1, 0, 0, 1]	&	7.0\\
+O	&	\url{tbd}	&	[0, 1, 0, 1]	&	6.0\\
+N	&	\url{tbd}	&	[0, 1, 1, 0]	&	6.0\\
+$\P$	&	\url{tbd}	&	[0, 1, 1, 1]	&	7.0\\
+E	&	\url{tbd}	&	[1, 0, 0, 0]	&	5.0\\
+R	&	\url{tbd}	&	[1, 0, 0, 1]	&	6.0\\
+T	&	\url{tbd}	&	[1, 0, 1]	&	5.0\\
+$\sqcup$	&	\url{tbd}	&	[1, 1]	&	4.0\\
+\end{tabular}\end{document}

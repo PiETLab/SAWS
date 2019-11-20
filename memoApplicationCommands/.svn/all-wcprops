@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/memoApplicationCommands
+END
+DefaultMemoFillerCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/memoApplicationCommands/DefaultMemoFillerCommand.java
+END
+SubjectLineSelectedCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/memoApplicationCommands/SubjectLineSelectedCommand.java
+END
+EditOptionCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/memoApplicationCommands/EditOptionCommand.java
+END
+StopTheMemoCompositionCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/memoApplicationCommands/StopTheMemoCompositionCommand.java
+END
+GoToEditSubmenuCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/memoApplicationCommands/GoToEditSubmenuCommand.java
+END
+CompleteTheMemoBodyFieldCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/memoApplicationCommands/CompleteTheMemoBodyFieldCommand.java
+END
+CompleteTheSubjectFieldCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/memoApplicationCommands/CompleteTheSubjectFieldCommand.java
+END
+MemoApplicationCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/memoApplicationCommands/MemoApplicationCommand.java
+END
+CompleteTheToFieldCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/memoApplicationCommands/CompleteTheToFieldCommand.java
+END
+AddresseeSelectionCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/memoApplicationCommands/AddresseeSelectionCommand.java
+END
+MemoBodyGoToReviewSourceSymbolCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/memoApplicationCommands/MemoBodyGoToReviewSourceSymbolCommand.java
+END
+MemoBodySignifyAsFinishedSourceSymbolCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/mb/!svn/ver/8/Prj-AssistiveTechnology/memoApplicationCommands/MemoBodySignifyAsFinishedSourceSymbolCommand.java
+END

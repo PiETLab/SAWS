@@ -1,0 +1,12 @@
+Created file testingCorpus2-TCF3LevelUnigram
+(1) GlossID
+(2)num(words)
+(3)num(chars)
+(4)num(dec)
+(5)num(dec|wi)
+(6)num(dec|cj)
+(1)	(2)	(3)	(4)	(5)	(6)
+0A1b	1	8	71	w=8	c=¶:8,9:11,5:10,2:10,0:8,¿:8,Z:9,B:7
+0A1a	1	8	44	w=2,42	c= :2,E:4,A:4,N:5,L:6,M:7,V:8,¶:8
+0A2a	2	5	33	w=24	c=Q:9,A:4,Z:9, :2,1:9
+0A2a	1	5	42	w=	c=0:8,¿:8,?:9,':10,P:7

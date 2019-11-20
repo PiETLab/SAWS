@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project Prj-AssistiveTechnology">
+<!--this file was created by Eclipse Runnable JAR Export Wizard-->
+<!--ANT 1.7 is required                                        -->
+<target name="create_run_jar">
+<jar destfile="/Users/mb/Documents/ProfContrib/ResearchProjects/LowVisionTextEntry/Program_Versions/Version2-01June09/meagan-training-v2.jar" filesetmanifest="mergewithoutmain">
+<manifest>
+<attribute name="Built-By" value="${user.name}"/>
+<attribute name="Main-Class" value="driverApplications_ISF.MeaganISFDriver_TrainingMode"/>
+<attribute name="Class-Path" value="."/>
+</manifest>
+<fileset dir="/Users/mb/Documents/workspace/Prj-AssistiveTechnology"/>
+</jar>
+</target>
+</project>

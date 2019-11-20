@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<!--
+##### FILL IN ANY SPECS NEEDED BY JAVA COMPATIBILITY KIT #####
+<ul>
+  <li><a href="">##### REFER TO ANY FRAMEMAKER SPECIFICATION HERE #####</a>
+</ul>
+<h2>Related Documentation</h2>
+
+For overviews, tutorials, examples, guides, and tool documentation, please see:
+<ul>
+  <li><a href="">##### REFER TO NON-SPEC DOCUMENTATION HERE #####</a>
+</ul>
+
+-->
+</head>
+<body bgcolor="white">
+
+This package provides the classes needed for implementing a Voice Output Communication Aid (VOCA). 
+
+<h2>Package Specification</h2>
+
+Here is an overview of the package:
+<map name="GraffleExport">
+</map>
+<img border=0 src="VOCA-pkg-overview.jpg" usemap="#GraffleExport">
+
+<!-- Put @see and @since tags down here. -->
+
+</body>
+</html>

@@ -4,6 +4,7 @@ import invocationParametersISF.IndirectSelectionFacilityInvocationParameterModel
 
 import java.awt.Color;
 import java.awt.Component;
+import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.FontMetrics;
 import java.awt.Graphics;
@@ -28,6 +29,8 @@ public class JTextDisplayerWithFontInformation extends JComponent {
 
 	// public final String DEFAULT_CARET = "^";
 	public final String DEFAULT_CARET = "";
+	
+	private Dimension screenSize;
 
 	private String theText = "";// = INIT;
 
@@ -56,6 +59,7 @@ public class JTextDisplayerWithFontInformation extends JComponent {
 		this();
 		this.paramManager = paramManager;
 		this.setFont(new Font(paramManager.getFontFamily(), Font.PLAIN, 96));
+		
 		this.setBackground(paramManager.getBackgroundColour());
 		// this.setBackground(Color.CYAN);
 		this.setForeground(paramManager.getTextColour());
@@ -67,7 +71,22 @@ public class JTextDisplayerWithFontInformation extends JComponent {
 		this.setAlignmentY(Component.TOP_ALIGNMENT);
 		currentCaretPosition = 0;
 	}
-
+	
+	public JTextDisplayerWithFontInformation(Dimension dimension,
+			IndirectSelectionFacilityInvocationParameterModel paramManager) {
+		this();
+		this.paramManager = paramManager;
+		this.setFont(new Font(paramManager.getFontFamily(), Font.PLAIN, 96));
+		this.setBackground(paramManager.getBackgroundColour());
+		// this.setBackground(Color.CYAN);
+		this.setForeground(paramManager.getTextColour());
+		shouldShowFontHints = paramManager.showFontHints();
+		
+		this.setSize(dimension);
+		this.screenSize = dimension;
+		
+	}
+		
 	public void paint(Graphics g) {
 		// drawTextCentered(g);
 		if (getTheText().length() != 0) {
@@ -492,6 +511,14 @@ public class JTextDisplayerWithFontInformation extends JComponent {
 		this.font = font;
 	}
 
+	public Dimension getScreenSize() {
+		return screenSize;
+	}
+
+	public void setScreenSize(Dimension screenSize) {
+		this.screenSize = screenSize;
+	}
+
 	/**
 	 * This method automatically adds the caret to the end of the displayed
 	 * gloss
@@ -574,6 +601,7 @@ public class JTextDisplayerWithFontInformation extends JComponent {
 			List<SourceSymbol> sourceSymbolSet) {
 
 		int availableHeight = this.getSize().height;
+//		int availableHeight = this.screenSize.height;
 		availableHeight = availableHeight - INSET_PADDING * 2;
 		if (IS_VERBOSE) {
 			System.out.println(this.getClass().getName()
@@ -618,8 +646,8 @@ public class JTextDisplayerWithFontInformation extends JComponent {
 		for (SourceSymbol s : sourceSymbolSet) {
 			if ((s.getVOCACommand() instanceof AppendAndConditionallyReinitializeWithAdaptiveCapitalizationCommand)
 					&& (!s
-							.equals(JIndirectSelectionButton.VK_SPACE_SYMBOL_SIMPLE))) {
-
+   							.equals(JIndirectSelectionButton.VK_SPACE_SYMBOL_SIMPLE))) {
+				System.out.println(exemplarString);
 				exemplarString = exemplarString + s.getTextLabel();
 			}
 		}
@@ -632,12 +660,15 @@ public class JTextDisplayerWithFontInformation extends JComponent {
 		Graphics2D g2 = (Graphics2D) this.getGraphics();
 
 		while ((g2 != null) && (f != null)
-				&& (maxFontPointSize - minFontPointSize >= 0.1)) {
+				&& (maxFontPointSize - minFontPointSize >= 0.5)) {
 			f = f.deriveFont(theFontSize);
 			FontRenderContext frc = g2.getFontRenderContext();
 			layout = new TextLayout(exemplarString, f, frc);
 			bounds = layout.getBounds();
 			double height = layout.getBounds().getHeight();
+			double width = layout.getBounds().getWidth();
+//			double width = this.getScreenSize().getWidth();
+//			bounds.setFrame(0, 0, width, height);
 			if (IS_VERBOSE) {
 				System.out
 						.println("max height of any source symbol under font of point size: "
@@ -661,6 +692,8 @@ public class JTextDisplayerWithFontInformation extends JComponent {
 								/ (float) height));
 			}
 		}
+		
+		System.out.println("Did we get stuck in an infinite loop?");
 		return theFontSize;
 
 	}

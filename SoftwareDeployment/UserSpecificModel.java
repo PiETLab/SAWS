@@ -39,11 +39,20 @@ public abstract class UserSpecificModel {
 		return parameterString;
 	}
 
+	
+	
+	
+	
 	public static String getDefaultDirectoryForParameterFiles() {
 		String HOME_DIR = System.getProperty("user.home");
-		String USER_RELATIVE_DIR = File.separator + "Dropbox" + File.separator
-				+ "Library" + File.separator + "Preferences" + File.separator
+//		String USER_RELATIVE_DIR = File.separator + "Dropbox" + File.separator
+//				+ "Library" + File.separator + "Preferences" + File.separator
+//				+ "AT-Applications" + File.separator;
+		
+		String USER_RELATIVE_DIR = File.separator + "Documents" + File.separator
 				+ "AT-Applications" + File.separator;
+		
+		
 		// String USER_RELATIVE_DIR = File.separator + "Library" +
 		// File.separator
 		// + "Preferences" + File.separator + "AT-Applications"

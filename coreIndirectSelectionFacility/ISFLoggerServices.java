@@ -301,7 +301,8 @@ public class ISFLoggerServices {
 
 	private static String getDateAndTimeStamp() {
 		GregorianCalendar calendar = new GregorianCalendar();
-		SimpleDateFormat fileNameFormat = new SimpleDateFormat("dMMMyyyy_HH:mm");
+//		SimpleDateFormat fileNameFormat = new SimpleDateFormat("dMMMyyyy_HH:mm");
+		SimpleDateFormat fileNameFormat = new SimpleDateFormat("yyMMddHHmmssZ");
 		// System.out.println("Filename: "
 		// + fileNameFormat.format(calendar.getTime()));
 		// return "%h" + "/" + subDirName + "/" + "vocaLog."

@@ -139,6 +139,10 @@ public class JTextDisplayer extends JPanel {
 
 	}
 
+	public JTextDisplayer(Dimension availableRealEstateForGlossWidget, Font dEFAULT_FONT2) {
+		// TODO Auto-generated constructor stub
+	}
+
 	public void paint(Graphics g) {
 		// System.out.println("Painting: " + this.getClass().getName());
 		// if (isFontToBeSetAsLargeAsPossible) {

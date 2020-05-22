@@ -1,0 +1,8 @@
+# Created file "/Users/mb/Library/Preferences/AT-Applications/isf-parameters-compose.txt" Mon May 25 23:37:22 PDT 2009
+-di displayScheme.ShowOneByOne_AllAtOnceWithHighlightingForLeaves_Variant2 -dt 800 -ea 2 -ec encodingTrees.RowColFromKB -el true -fa passive -ff Dialog -kb buttonLayouts.MeaganKeyboardLayout -kp 0.50 -mt encodingTrees.AlphabeticET_MeaganSubset_2Level -rb true -ss sourceSymbolSet.Venkatagiri99Set -te manual -ui Meagan -tt default -fu false -ha 0 -va 1 -bg WHITE -fg BLACK -as actionScheme.PassiveFA_ActiveSelection_CompositionMode_ExplicitStartForFirstTraversal_ImplicitLogging 
+
+
+-di displayScheme.ShowOneByOneWholeTraversalEvenUnbalancedTrees -dt 1500 -ea 2 -ec encodingTrees.HuffmanEqualCosts -el true -fa passive -ff Dialog -kb buttonLayouts.MeaganKeyboardLayout -kp 0.50 -mt encodingTrees.HuffmanUnequalCosts -rb true -ss sourceSymbolSet.MeaganCompositionSet -te file -ui Melanie -tt Composition  -fu false -ha 0 -va 1 -bg WHITE -fg BLACK -as actionScheme.PassiveFA_ActiveSelection_CompositionMode_AutomaticStartForTraversal_ImplicitLogging  -fc /Users/meagandean/Dropbox/Library/Preferences/AT-Applications/HuffmanEqualCostsK5.obj0
+
+
+#

@@ -1,0 +1,4 @@
+# Created file "/Users/mb/Library/Preferences/AT-Applications/isf-parameters-game.txt" Mon May 25 23:35:49 PDT 2009
+-di displayScheme.ShowOneByOne_AllAtOnceWithHighlightingForLeaves_Variant2 -dt 1200 -ea 2 -ec encodingTrees.RowColFromKB -el true -fa passive -ff Dialog -kb buttonLayouts.MeaganKeyboardLayout -kp 0.50 -mt encodingTrees.AlphabeticET_MeaganSubset_2Level -rb true -ss sourceSymbolSet.Venkatagiri99Set -te manual -ui Melanie -tt default -fu false -ha 0 -va 0 -bg WHITE -fg BLACK -as actionScheme.PassiveFA_ActiveSelection_GameMode 
+
+#

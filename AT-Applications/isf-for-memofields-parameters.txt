@@ -1,0 +1,3 @@
+-eh false -te alg -ec HuffmanEqualCosts -ea 5 -sl MemoFiller.MemoFieldsToBeCompletedSet -di IndirectSelectionFacility.ShowKeyboardWithAsFewElementsAsPossible -kb MeaganKeyboardLayoutForMemoFields -fa passive -dt 1500 -rb true -ff sansserif -kp 0.50
+
+		String MEMO_FIELD_PARAM = "-eh false -kb MeaganKeyboardLayout -sl MemoFiller.MemoFieldsToBeCompletedSet -fa passive -dt 1500 -te et_kb -ec HuffmanEqualCosts -ea 5";

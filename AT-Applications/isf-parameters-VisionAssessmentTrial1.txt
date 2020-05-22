@@ -1,0 +1,17 @@
+-el true -ui Samuel -te alg -ec HuffmanEqualCosts -ea 10 -ss MiniSet_Size10_VA -di displayScheme.ShowKeyboardWithLeavesAlone -kb MeaganKeyboardLayout -fa passive -dt 2000 -rb true -ff sansserif -kp 0.50 -ha 2 -fu false
+
+-el true -ui Samuel -te alg -ec HuffmanEqualCosts -ea 5 -sl MeaganCompositionSet -di IndirectSelectionFacility.ShowKeyboardWithAsFewElementsAsPossible -kb MeaganKeyboardLayout -fa passive -dt 1500 -rb true -ff sansserif -kp 0.50 -fs false
+
+
+-eh false -te alg -ec HuffmanEqualCosts -ea 6 -sl MeaganCompositionSet -di IndirectSelectionFacility.ShowKeyboardWithAsFewElementsAsPossible -kb MeaganKeyboardLayout -fa passive -dt 500 -rb true -ff sansserif -kp 0.50
+
+"-eh false "
+				+ "-te alg "
+				+ "-ec HuffmanEqualCosts "
+				+ "-ea 6 "
+				+ "-sl MeaganCompositionSet "
+				+ "-di IndirectSelectionFacility.ShowKeyboardWithAsFewElementsAsPossible "
+				+ "-di IndirectSelectionFacility.ShowFullKeyboardAtAllTimes "
+				+ "-di IndirectSelectionFacility.ShowMaxKeyboardInAvailableRealEstate "
+				+ "-kb MeaganKeyboardLayout -vi  " + ""
+				+ "-fa passive  -rb true -ff sansserif -kp 0.30" + "";

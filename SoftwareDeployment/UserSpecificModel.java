@@ -44,20 +44,24 @@ public abstract class UserSpecificModel {
 	
 	
 	public static String getDefaultDirectoryForParameterFiles() {
-		String HOME_DIR = System.getProperty("user.home");
+		//String HOME_DIR = System.getProperty("user.home");
 //		String USER_RELATIVE_DIR = File.separator + "Dropbox" + File.separator
 //				+ "Library" + File.separator + "Preferences" + File.separator
 //				+ "AT-Applications" + File.separator;
 		
-		String USER_RELATIVE_DIR = File.separator + "Documents" + File.separator
-				+ "AT-Applications" + File.separator;
+		//String USER_RELATIVE_DIR = File.separator + "Documents" + File.separator
+		//		+ "AT-Applications" + File.separator;
+		
+		String PROJ_DIR = System.getProperty("user.dir") + File.separator + "AT-Applications" + File.separator;
+		// TODO: This change allows us to have the AT files in a local dir w/ SAWS
 		
 		
 		// String USER_RELATIVE_DIR = File.separator + "Library" +
 		// File.separator
 		// + "Preferences" + File.separator + "AT-Applications"
 		// + File.separator;
-		return HOME_DIR + USER_RELATIVE_DIR;
+		return PROJ_DIR;
+		//return HOME_DIR + USER_RELATIVE_DIR;
 	}
 
 }

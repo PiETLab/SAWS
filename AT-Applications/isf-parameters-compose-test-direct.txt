@@ -1,0 +1,4 @@
+# Created file "/Users/mb/Library/Preferences/AT-Applications/isf-parameters-compose.txt" Mon May 25 23:37:22 PDT 2009
+-di displayScheme.ShowAllAtOnceWithHighlighting -dt 500 -ea 5 -ec encodingTrees.HuffmanEqualCosts -el true -fa passive -ff Dialog -kb buttonLayouts.MeaganKeyboardLayout -kp 0.50 -mt encodingTrees. HuffmanEqualCosts -rb true -ss sourceSymbolSet.MeaganCompositionSet -te file -ui Melanie -tt Composition  -fu false -ha 0 -va 1 -bg WHITE -fg BLACK -as actionScheme.BinaryDirectTraversalActionScheme -fc /Users/mb/HuffmanUnequalCostsK2.obj
+
+#

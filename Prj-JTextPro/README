@@ -1,0 +1,73 @@
+Directory structure:
+--------------------
+
+    lib			contains the library and the output of compiling process
+    models		contains trained models: sentence segmentation, POS tagging, and phrase chunking
+    samples		contains sample input data files
+    src			contains source code files
+    Makefile		make file
+    README		this one
+
+
+How to compile JTextPro:
+------------------------
+
+    make clean
+    make all
+    
+
+How to test:
+------------
+
+    make test
+    
+    after testing, go to samples directory to see the outputs
+    
+
+How to use JTextPro:
+---------------------
+
+    command line:
+    
+    case 1:
+	
+	java -mx512M -classpath <CLASSPATH> jtextpro.JTextProcessor <MODELS DIRECTORY> <INPUT FILE>
+	
+    where:
+	
+	-mx512M: to extend heap memory for JVM
+	
+	<CLASSPATH> is the path to the "jtextpro.jar" file. For instance, if we are currently at 
+	the home directory of JTextPro, the <CLASSPATH> is "./lib/jtextpro.jar"
+	
+	<MODELS DIRECTORY> is the path to the directory containing three trained models
+	(sentence segmentation, POS tagging, and phrase chunking models). For instance, if we are 
+	currently at the home directory	of JTextPro, the <MODELS DIRECTORY> is "./models"
+	
+	<INPUT FILE> is the input text file that needs to be processed. See the sample input files
+	in ./samples directory
+	
+    example:
+    
+	if we are currently at the top (home) directory of JTextPro and we would like to process
+	an input file named "input.txt" which is located in the "samples" directory, we use the
+	following command line:
+	
+	java -mx512M -classpath ./lib/jtextpro.jar:. jtextpro.JTextProcessor ./models ./samples/input.txt
+	
+	the output will be "input.txt.out"
+	
+Notes:
+------
+
+    - Because loading trained models into internal memory is quite time-consuming. You should load
+    them once at the beginning and then process multiple files together to avoid loading them 
+    again and again. Please, see the ./src/jtextpro/JTextProcessor.java source code file to modify 
+    a little bit to do that.
+    
+    - All API functions are in ./src/jtextpro/JTextPro.java source code file.
+    
+    - To compile JTextPro on Windows, modify the Makefile to replace the path separator character
+    "/" by "\"
+    
+    

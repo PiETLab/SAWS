@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/repos/mb/!svn/ver/10/Prj-JTextPro/riso
+END
+compile.sh
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/repos/mb/!svn/ver/10/Prj-JTextPro/riso/compile.sh
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/repos/mb/!svn/ver/10/Prj-JTextPro/riso/LICENSE
+END
+riso.spec
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/repos/mb/!svn/ver/10/Prj-JTextPro/riso/riso.spec
+END
+GPL-LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/mb/!svn/ver/10/Prj-JTextPro/riso/GPL-LICENSE.txt
+END
+ACM-LICENSE.html
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/mb/!svn/ver/10/Prj-JTextPro/riso/ACM-LICENSE.html
+END
+riso_binding.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/mb/!svn/ver/10/Prj-JTextPro/riso/riso_binding.py
+END

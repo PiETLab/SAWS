@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/repos/mb/!svn/ver/10/Prj-JTextPro/jmaxent
+END
+Element.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/mb/!svn/ver/10/Prj-JTextPro/jmaxent/Element.java
+END
+Evaluation.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/mb/!svn/ver/10/Prj-JTextPro/jmaxent/Evaluation.java
+END
+Observation.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/mb/!svn/ver/10/Prj-JTextPro/jmaxent/Observation.java
+END
+Data.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repos/mb/!svn/ver/10/Prj-JTextPro/jmaxent/Data.java
+END
+FeatureGen.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/mb/!svn/ver/10/Prj-JTextPro/jmaxent/FeatureGen.java
+END
+Inference.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/mb/!svn/ver/10/Prj-JTextPro/jmaxent/Inference.java
+END
+Model.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repos/mb/!svn/ver/10/Prj-JTextPro/jmaxent/Model.java
+END
+Train.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repos/mb/!svn/ver/10/Prj-JTextPro/jmaxent/Train.java
+END
+Classification.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/mb/!svn/ver/10/Prj-JTextPro/jmaxent/Classification.java
+END
+CountFIdx.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/mb/!svn/ver/10/Prj-JTextPro/jmaxent/CountFIdx.java
+END
+Dictionary.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/mb/!svn/ver/10/Prj-JTextPro/jmaxent/Dictionary.java
+END
+Feature.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/mb/!svn/ver/10/Prj-JTextPro/jmaxent/Feature.java
+END
+Option.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/mb/!svn/ver/10/Prj-JTextPro/jmaxent/Option.java
+END
+Trainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/mb/!svn/ver/10/Prj-JTextPro/jmaxent/Trainer.java
+END

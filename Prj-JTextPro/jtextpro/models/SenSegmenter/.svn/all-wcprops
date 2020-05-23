@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/mb/!svn/ver/10/Prj-JTextPro/jtextpro/models/SenSegmenter
+END
+abbrlist.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/mb/!svn/ver/10/Prj-JTextPro/jtextpro/models/SenSegmenter/abbrlist.txt
+END
+abbreviations.txt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/mb/!svn/ver/10/Prj-JTextPro/jtextpro/models/SenSegmenter/abbreviations.txt
+END
+option.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/mb/!svn/ver/10/Prj-JTextPro/jtextpro/models/SenSegmenter/option.txt
+END
+model.txt
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/mb/!svn/ver/10/Prj-JTextPro/jtextpro/models/SenSegmenter/model.txt
+END
+trainlog.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/mb/!svn/ver/10/Prj-JTextPro/jtextpro/models/SenSegmenter/trainlog.txt
+END
+AbbrListGen.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/mb/!svn/ver/10/Prj-JTextPro/jtextpro/models/SenSegmenter/AbbrListGen.java
+END

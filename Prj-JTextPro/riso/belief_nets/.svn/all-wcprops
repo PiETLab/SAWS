@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/repos/mb/!svn/ver/10/Prj-JTextPro/riso/belief_nets
+END
+AbstractVariable.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/mb/!svn/ver/10/Prj-JTextPro/riso/belief_nets/AbstractVariable.java
+END
+BeliefNetwork.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/mb/!svn/ver/10/Prj-JTextPro/riso/belief_nets/BeliefNetwork.java
+END
+StaleReferenceException.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/mb/!svn/ver/10/Prj-JTextPro/riso/belief_nets/StaleReferenceException.java
+END
+Variable.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/mb/!svn/ver/10/Prj-JTextPro/riso/belief_nets/Variable.java
+END
+AbstractBeliefNetwork.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/mb/!svn/ver/10/Prj-JTextPro/riso/belief_nets/AbstractBeliefNetwork.java
+END
+TemporalBeliefNetwork.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/mb/!svn/ver/10/Prj-JTextPro/riso/belief_nets/TemporalBeliefNetwork.java
+END
+UnknownNetworkException.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/mb/!svn/ver/10/Prj-JTextPro/riso/belief_nets/UnknownNetworkException.java
+END
+UnknownParentException.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/mb/!svn/ver/10/Prj-JTextPro/riso/belief_nets/UnknownParentException.java
+END
+AbstractTemporalBeliefNetwork.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/mb/!svn/ver/10/Prj-JTextPro/riso/belief_nets/AbstractTemporalBeliefNetwork.java
+END
+NameInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/mb/!svn/ver/10/Prj-JTextPro/riso/belief_nets/NameInfo.java
+END
+NullValueHashtable.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/mb/!svn/ver/10/Prj-JTextPro/riso/belief_nets/NullValueHashtable.java
+END
+AbstractBeliefNetworkContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/mb/!svn/ver/10/Prj-JTextPro/riso/belief_nets/AbstractBeliefNetworkContext.java
+END
+Global.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/mb/!svn/ver/10/Prj-JTextPro/riso/belief_nets/Global.java
+END
+BeliefNetworkContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/mb/!svn/ver/10/Prj-JTextPro/riso/belief_nets/BeliefNetworkContext.java
+END

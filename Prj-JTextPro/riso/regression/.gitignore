@@ -1,0 +1,14 @@
+/CallCos.class
+/CallLinear.class
+/CallSigmoid.class
+/CallSin.class
+/CallSoftmax.class
+/CallTanh.class
+/FunctionCaller.class
+/HarmonicModel.class
+/HarmonicWithParametersAsParents.class
+/RadarCrossSection.class
+/RegressionModel.class
+/SquashingNetwork.class
+/SquashingNetworkBag.class
+/output_pair.class

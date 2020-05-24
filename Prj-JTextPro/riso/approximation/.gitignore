@@ -1,0 +1,13 @@
+/CrossEntropyIntegrand.class
+/DistributionCallback.class
+/DistributionProduct.class
+/EntropyIntegrand.class
+/GaussianMixApproximation.class
+/IntegralHelperFactory.class
+/IntervalComparator.class
+/Intervals$ScaleTooBigException.class
+/Intervals.class
+/MeanIntegrand.class
+/MixingProportionIntegrand.class
+/SplineApproximation.class
+/VarianceIntegrand.class

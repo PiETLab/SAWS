@@ -30,8 +30,7 @@ public class ISFLoggerServices {
 
 	public static String TAG_FOR_LOGGER_UNIQUELY_DENOTES_TARGET_PROMPT = "T";
 
-	private static final String SUB_DIR_NAME = "Dropbox" + File.separator
-			+ "ISF_Logs";
+	private static final String SUB_DIR_NAME = "ISF_Logs";
 	private static final String FILE_PREFIX = "ISFLogFile";
 	private static final String SESSION_PREFIX = "Session";
 	private static final String COMPUTER_NAME = ISFLoggerServices
@@ -131,7 +130,7 @@ public class ISFLoggerServices {
 		// if (!theSubDir.exists())
 		File subDirectory = new File(subDir);
 
-		boolean success = subDirectory.mkdir();
+		boolean success = subDirectory.mkdirs();
 		if (success) {
 			System.out.println("Directory: " + subDir + " created");
 		}
@@ -244,7 +243,7 @@ public class ISFLoggerServices {
 
 		String fileName = subDirectory.getAbsolutePath() + File.separator
 				+ getFileName(subjectID);
-
+		
 		FileHandler fh;
 		try {
 			fh = new FileHandler(fileName);
@@ -301,7 +300,8 @@ public class ISFLoggerServices {
 
 	private static String getDateAndTimeStamp() {
 		GregorianCalendar calendar = new GregorianCalendar();
-		SimpleDateFormat fileNameFormat = new SimpleDateFormat("dMMMyyyy_HH:mm");
+//		SimpleDateFormat fileNameFormat = new SimpleDateFormat("dMMMyyyy_HH:mm");
+		SimpleDateFormat fileNameFormat = new SimpleDateFormat("yyMMddHHmmssZ");
 		// System.out.println("Filename: "
 		// + fileNameFormat.format(calendar.getTime()));
 		// return "%h" + "/" + subDirName + "/" + "vocaLog."

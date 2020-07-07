@@ -1,0 +1,3 @@
+setTest
+setEventRateInMSec 1000
+setDisplayFont sanserif 0 300

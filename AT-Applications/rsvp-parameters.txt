@@ -1,0 +1,5 @@
+# Created file "/Users/mb/Documents/workspace-new2/Prj-Meagan/Parameters/rsvp-parameters.txt" Tue Mar 31 14:41:41 PDT 2009
+-h  -dt 1500 -ht /Users/mb/Dropbox/Library/Preferences/AT-Applications/en_US.xml -ff SansSerif -fs 300 -bg white -fu false
+
+-h  -dt 1500 -ht /Users/meagandean/Dropbox/Library/Preferences/AT-Applications/en_US.xml -ff SansSerif -fs 300 -bg white -fu false
+

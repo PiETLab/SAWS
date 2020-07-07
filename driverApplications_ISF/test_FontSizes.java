@@ -63,7 +63,7 @@ public class test_FontSizes {
 		JFrame frame = new TestingFrame();
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setTitle(frame.getClass().getName());
-		frame.pack();
+		//frame.pack();
 		frame.setExtendedState(Frame.MAXIMIZED_BOTH);
 		frame.setVisible(true); // alternative: frame.show()
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -75,6 +75,7 @@ public class test_FontSizes {
 								.getKeyboardRealEstateProportion())));
 		System.out.println(totalRealEstate);
 		TestingFrame.fontDisplayer.setSize(totalRealEstate);
+		TestingFrame.fontDisplayer.setScreenSize(totalRealEstate);
 		TestingFrame.fontDisplayer.setPreferredSize(totalRealEstate);
 		// TestingFrame.fontDisplayer.setMinimumSize(totalRealEstate);
 		// TestingFrame.fontDisplayer.setMaximumSize(totalRealEstate);
@@ -125,6 +126,7 @@ class TestingFrame extends JFrame implements KeyListener {
 		// add component to panel
 
 		Container c = getContentPane();
+		//c.setSize(fontDisplayer.getScreenSize());
 		c.add(fontDisplayer, "North");
 
 	}

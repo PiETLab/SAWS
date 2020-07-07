@@ -38,13 +38,16 @@ public class test_ScreenDimensions {
 		JFrame frame = new TestingFrame2();
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setTitle(frame.getClass().getName());
-		frame.pack();
+//		frame.pack(); //Pack causes the frame to be small
 		// frame.setExtendedState(Frame.MAXIMIZED_BOTH);
 		frame.setVisible(true); // alternative: frame.show()
-
+		
+		
+		
 		AlphabeticET_MeaganSubset_2Level et = new AlphabeticET_MeaganSubset_2Level();
+		
 		TestingFrame2.fontDisplayer.setDisplayFontAsLargesAsPossible(et.getRootOfEncodingTree().getLeaves());
-
+		
 		System.out.println(frame.getSize());
 
 	}
@@ -68,8 +71,10 @@ class TestingFrame2 extends JFrame implements KeyListener {
 
 		final String ISF_PARAMETER_FILENAME = UserSpecificModel.getDefaultDirectoryForParameterFiles() + PARAM_FILE;
 
-		UserSpecificModel um = new IndirectSelectionFacilityUserModel(ISF_PARAMETER_FILENAME);
-		paramModel = (IndirectSelectionFacilityInvocationParameterModel) um.getInvocationParameters();
+		UserSpecificModel um = new IndirectSelectionFacilityUserModel(
+				ISF_PARAMETER_FILENAME);
+		paramModel = (IndirectSelectionFacilityInvocationParameterModel) um
+				.getInvocationParameters();
 
 		int NUM_PIXELS_FOR_WINDOW_DECORATION = 0;
 
@@ -82,13 +87,14 @@ class TestingFrame2 extends JFrame implements KeyListener {
 				(int) Toolkit.getDefaultToolkit().getScreenSize().getHeight() - heightOfKeyboard
 						- NUM_PIXELS_FOR_WINDOW_DECORATION);
 
-//		fontDisplayer = new JTextDisplayerWithFontInformation(
-//				availableRealEstateForGlossWidget, paramModel);
-		fontDisplayer = new JTextDisplayerWithFontInformation(paramModel);
-
+		fontDisplayer = new JTextDisplayerWithFontInformation(
+				availableRealEstateForGlossWidget, paramModel);
+//		fontDisplayer = new JTextDisplayerWithFontInformation(paramModel);
+		fontDisplayer.setSize(availableRealEstateForGlossWidget);
 		this.addWindowListener(new WindowCloser());
 		fontDisplayer.addKeyListener(this);
 		this.addKeyListener(this);
+		this.setSize(availableRealEstateForGlossWidget);
 
 		// ------------------
 		// arrange components
@@ -98,6 +104,7 @@ class TestingFrame2 extends JFrame implements KeyListener {
 
 		Container c = getContentPane();
 		c.add(fontDisplayer, "North");
+		
 
 	}
 

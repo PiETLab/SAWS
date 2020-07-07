@@ -1,0 +1,14 @@
+-di displayScheme.ShowForElijah -dt 1500 -ea 4 -ec encodingTrees.HuffmanEqualCosts -el true -fa passive -ff Dialog -kb buttonLayouts.MeaganKeyboardLayout -kp 0.50 -mt encodingTrees.HuffmanEqualCosts -rb true -ss sourceSymbolSet.ElijahCompositionSet -te alg -ui Melanie -tt default -fu true -ha 0 -va 0 -bg WHITE -fg BLACK -as actionScheme.PassiveFA_ActiveSelection_GameMode 
+
+
+-di displayScheme.ShowOneByOne_AllAtOnceWithHighlightingForLeaves_Variant2 -dt 800 -ea 2 -ec encodingTrees.HuffmanEqualCosts -el true -fa passive -ff Dialog -kb buttonLayouts.MeaganKeyboardLayout -kp 0.50 -mt encodingTrees.AlphabeticET_MeaganSubset_2Level -rb true -ss sourceSymbolSet.Venkatagiri99Set -te alg -ui Elijah -tt default -fu false -ha 0 -va 1 -bg WHITE -fg BLACK -as actionScheme.PassiveFA_ActiveSelection_CompositionMode_ExplicitStartForFirstTraversal_ImplicitLogging 
+
+-di displayScheme.ShowOneByOne_AllAtOnceWithHighlightingForLeaves_Variant2 -dt 800 -ea 2 -ec encodingTrees.RowColFromKB -el true -fa passive -ff Dialog -kb buttonLayouts.MeaganKeyboardLayout -kp 0.50 -mt encodingTrees.AlphabeticET_MeaganSubset_2Level -rb true -ss sourceSymbolSet.Venkatagiri99Set -te manual -ui Meagan -tt default -fu false -ha 0 -va 1 -bg WHITE -fg BLACK -as actionScheme.PassiveFA_ActiveSelection_CompositionMode_ExplicitStartForFirstTraversal_ImplicitLogging 
+
+-di displayScheme.ShowOneByOne_AllAtOnceWithHighlightingForLeaves_Variant2 -dt 1500 -ea 3 -ec encodingTrees.HuffmanEqualCosts -el true -fa passive -ff Dialog -kp 0.50 -kb buttonLayouts.MeaganKeyboardLayout  -rb true -ss sourceSymbolSet.ElijahCompositionSet -te alg -ui Melanie -tt Composition  -fu false -ha 0 -va 1 -bg WHITE -fg BLACK -as actionScheme.PassiveFA_ActiveSelection_CompositionMode_ExplicitStartForFirstTraversal_ImplicitLogging  
+
+
+-di displayScheme.ShowOneByOne_AllAtOnceWithHighlightingForLeaves_Variant2 -dt 800 -ea 2 -ec encodingTrees.RowColFromKB -el true -fa passive -ff Dialog -kb buttonLayouts.MeaganKeyboardLayout -kp 0.50 -mt encodingTrees.AlphabeticET_MeaganSubset_2Level -rb true -ss sourceSymbolSet.ElijahCompositionSet -te manual -ui Elijah -tt default -fu false -ha 0 -va 1 -bg WHITE -fg BLACK -as actionScheme.PassiveFA_ActiveSelection_CompositionMode_ExplicitStartForFirstTraversal_ImplicitLogging 
+
+
+#

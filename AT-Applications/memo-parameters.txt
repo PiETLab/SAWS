@@ -1,0 +1,5 @@
+# Created file manually
+-ab /Users/meagandean/Dropbox/Library/Preferences/AT-Applications/addressbook.txt -sl /Users/meagandean/Dropbox/Library/Preferences/AT-Applications/subjectLines.txt -pd /Users/meagandean/Documents/MeaganPDF/ -fu false 
+
+-ab /Users/meagandean/Dropbox/Library/Preferences/AT-Applications/addressbook.txt -sl /Users/meagandean/Dropbox/Library/Preferences/AT-Applications/subjectLines.txt -pd /Users/meagandean/Documents/MeaganPDF/ -fu false 
+

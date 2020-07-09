@@ -2,34 +2,26 @@
 #
 # Check https://circleci.com/docs/2.0/language-java/ for more details
 #
-version: 2
+version: 2.1
 jobs:
-  build-MCO:
-    
-    working_directory: ~/SAWS
- 
+  build:
     environment:
-        _JAVA_OPTIONS: "-Xmx3g"
-        GRADLE_OPTS: "-Dorg.gradle.daemon=false -Dorg.gradle.workers.max=2"
+      _JAVA_OPTIONS: "-Xmx3g"
+      GRADLE_OPTS: "-Dorg.gradle.daemon=false -Dorg.gradle.workers.max=2"
     docker:
       # specify the version you desire here
       - image: circleci/openjdk:11.0.3-jdk-stretch
-
     steps:
       - checkout
-
-      #- restore_cache:
-      #     key: v1-gradle-wrapper-{{ checksum "gradle/wrapper/gradle-wrapper.properties" }}
-      #- restore_cache:
-      #    	key: v1-gradle-cache-{{ checksum "build.gradle" }}
+      - restore_cache:
+          key: v1-gradle-wrapper-{{ checksum "gradle/wrapper/gradle-wrapper.properties" }}
+      - restore_cache:
+          key: v1-gradle-cache-{{ checksum "build.gradle" }}
       - run:
-      #      github-release upload --token ${GITHUB_TOKEN} --owner ${CIRCLE_PROJECT_USERNAME} --repo ${CIRCLE_PROJECT_REPONAME} --tag ${CIRCLE_TAG} --name ${CIRCLE_TAG} --body "Release date: ${now}" ${SAWS_RELEASE_FILE}.zip
-
-      name: Assemble JAR
+          name: Assemble JAR
           command: |
-            # Skip this for other nodes
             if [ "$CIRCLE_NODE_INDEX" == 0 ]; then
-              ./gradlew assemble
+              ~/.gradle/gradlew assemble ~/SAWS/driverApplications_ISF/MeaganISFDriver_Composition_Optimal
             fi
       # As the JAR was only assembled in the first build container, build/libs will be empty in all the other build containers.
       - store_artifacts:
@@ -39,7 +31,4 @@ workflows:
   version: 2
   build:
     jobs:
-      - build-MCO:
-      #    filters:
-      #      branches:
-      #        only: master
+      - build

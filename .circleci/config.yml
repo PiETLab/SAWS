@@ -22,8 +22,6 @@ jobs:
       #     key: v1-gradle-wrapper-{{ checksum "gradle/wrapper/gradle-wrapper.properties" }}
       #- restore_cache:
       #    	key: v1-gradle-cache-{{ checksum "build.gradle" }}
-          	
-          	
       - run:
       #      github-release upload --token ${GITHUB_TOKEN} --owner ${CIRCLE_PROJECT_USERNAME} --repo ${CIRCLE_PROJECT_REPONAME} --tag ${CIRCLE_TAG} --name ${CIRCLE_TAG} --body "Release date: ${now}" ${SAWS_RELEASE_FILE}.zip
 

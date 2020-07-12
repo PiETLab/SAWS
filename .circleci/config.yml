@@ -7,21 +7,21 @@ jobs:
   build:
     environment:
       _JAVA_OPTIONS: "-Xmx3g"
-      GRADLE_OPTS: "-Dorg.gradle.daemon=false -Dorg.gradle.workers.max=2"
     docker:
       # specify the version you desire here
-      - image: circleci/openjdk:11.0.3-jdk-stretch
+      - image: jimador/docker-jdk-8-maven-node
+    working_directory: ~/SAWS
     steps:
       - checkout
-      - restore_cache:
-          key: v1-gradle-wrapper-{{ checksum "gradle/wrapper/gradle-wrapper.properties" }}
-      - restore_cache:
-          key: v1-gradle-cache-{{ checksum "build.gradle" }}
       - run:
           name: Assemble JAR
           command: |
+            now="$(date)"
+            sudo apt-get install ant -y
+            sudo apt install zip unzip
+            npm install -g github-release-cli
             if [ "$CIRCLE_NODE_INDEX" == 0 ]; then
-              ~/.gradle/gradlew assemble ~/SAWS/driverApplications_ISF/MeaganISFDriver_Composition_Optimal
+               ant -f build.xml
             fi
       # As the JAR was only assembled in the first build container, build/libs will be empty in all the other build containers.
       - store_artifacts:

@@ -26,12 +26,12 @@ public class MeaganISF_RSVP_Driver {
 	static IndirectSelectionFacilityLauncher isfLauncher;
 
 	public static void main(String[] args) {
-		final String RSVP_PARAMETER_FILENAME = "/Users/mb/Documents/workspace-new2/Prj-Meagan/Parameters/rsvp-parameters.txt";
+		final String RSVP_PARAMETER_FILENAME = "rsvp-parameters.txt";
 		UserSpecificModel umRSVP = new RSVPUserModel(RSVP_PARAMETER_FILENAME);
 		RSVPInvocationParameterModel paramsRSVP = (RSVPInvocationParameterModel) umRSVP
 				.getInvocationParameters();
 
-		final String ISF_PARAMETER_FILENAME = "/Users/mb/Documents/workspace-new2/Prj-Meagan/Parameters/isf-parameters.txt";
+		final String ISF_PARAMETER_FILENAME = "isf-parameters.txt";
 		UserSpecificModel um = new IndirectSelectionFacilityUserModel(
 				ISF_PARAMETER_FILENAME);
 		IndirectSelectionFacilityInvocationParameterModel paramsISF = (IndirectSelectionFacilityInvocationParameterModel) um

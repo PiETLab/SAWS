@@ -97,7 +97,7 @@ public class Addressee extends JButton implements SourceSymbol {
 	}
 
 	public String toString() {
-		return this.getClass().getName() + "Ê: " + this.getFullName() + "  "
+		return this.getClass().getName() + " : " + this.getFullName() + "  "
 				+ this.getMarginalProbability();
 	}
 

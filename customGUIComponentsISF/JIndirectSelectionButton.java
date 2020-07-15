@@ -369,7 +369,7 @@ public class JIndirectSelectionButton extends JButton implements
 	public static final JIndirectSelectionButton VK_DEL_SINGLE_SYMBOL = new JIndirectSelectionButton(
 			"\u21d0", new DeleteCommand(), "\\#");
 
-	// \u00bf is unicode for inverted question mark ¿ (used to append this
+	// \u00bf is unicode for inverted question mark (used to append this
 	// character)
 	public static final JIndirectSelectionButton VK_DEL_SYMBOL = new JIndirectSelectionButton(
 			"\u00bf", new DeleteCommand(), "?`");

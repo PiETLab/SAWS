@@ -29,7 +29,7 @@ public class MeaganMemoFillerDriver {
 		// UserSpecificModel um2 = new IndirectSelectionFacilityUserModel(
 		// ISF_PARAMETER_FILENAME);
 		// IndirectSelectionFacilityInvocationParameterModel isfParamModel =
-		// (IndirectSe≈lectionFacilityInvocationParameterModel) um2
+		// (IndirectSelectionFacilityInvocationParameterModel) um2
 		// .getInvocationParameters();
 		IndirectSelectionFacilityInvocationParameterModel isfParamModel = null;
 

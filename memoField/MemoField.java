@@ -123,7 +123,7 @@ public abstract class MemoField extends JButton implements SourceSymbol {
 	// }
 
 	public String toString() {
-		return this.getClass().getName() + "Ê: " + this.getNameOfField()
+		return this.getClass().getName() + ": " + this.getNameOfField()
 				+ FORMATTER + this.getAssociatedValue();
 	}
 

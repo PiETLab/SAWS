@@ -43,7 +43,7 @@ import java.util.logging.Logger;
  * <p>
  * This app can be invoked with a simulated user. The simulated user monitors
  * which buttons are highlighted and when the one gains focus, the user selects
- * it (the simulated user is actïually implemented as a separate thread and it
+ * it (the simulated user is actually implemented as a separate thread and it
  * places a action event on the event-dispatching thread). THIS FEATURE
  * PRESENTLY BROKEN.
  * 
